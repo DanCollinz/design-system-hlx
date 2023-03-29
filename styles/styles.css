@@ -241,3 +241,7 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+.two-column-hero block{
+
+  background-color: #28325a;
+}
