@@ -361,8 +361,10 @@ export function buildBlock(blockName, content) {
   blockEl.classList.add(blockName);
   table.forEach((row) => {
     const rowEl = document.createElement('div');
+    rowEl.classlist.add('rowEl')
     row.forEach((col) => {
       const colEl = document.createElement('div');
+      rowEl.classlist.add('colEl')
       const vals = col.elems ? col.elems : [col];
       vals.forEach((val) => {
         if (val) {

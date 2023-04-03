@@ -22,11 +22,21 @@ window.hlx.RUM_GENERATION = 'project-1'; // add your RUM generation information 
  */
 function buildHeroBlock(main) {
   const h1 = main.querySelector('h1');
+  const h2 = main.querySelector('h2');
+  const h3 = main.querySelector('h3');
+  const p = main.querySelector('p');
+
+
   const picture = main.querySelector('picture');
   // eslint-disable-next-line no-bitwise
+  //const section = document.createElement('div');
+  //section.className = 'heroCopyBox';
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
-    section.append(buildBlock('hero', { elems: [picture, h1] }));
+    section.className = 'heroCopyBox';
+    //section.className.add('box');
+     //element.className = className;
+    section.append(buildBlock('hero', { elems: [picture, h1, h2, h3, p] }));
     main.prepend(section);
   }
 }
