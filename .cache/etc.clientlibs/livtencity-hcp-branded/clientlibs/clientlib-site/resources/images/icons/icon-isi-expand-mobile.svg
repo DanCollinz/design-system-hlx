@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Plus 2</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plus" fill="#FF0056">
+            <path d="M8.5,5 L0.5,5 C0.223857625,5 3.38176876e-17,4.77614237 0,4.5 C-3.38176876e-17,4.22385763 0.223857625,4 0.5,4 L8.5,4 C8.77614237,4 9,4.22385763 9,4.5 C9,4.77614237 8.77614237,5 8.5,5 Z" id="Rectangle-Copy-2"></path>
+            <path d="M8.5,5 L0.5,5 C0.223857625,5 3.38176876e-17,4.77614237 0,4.5 C-3.38176876e-17,4.22385763 0.223857625,4 0.5,4 L8.5,4 C8.77614237,4 9,4.22385763 9,4.5 C9,4.77614237 8.77614237,5 8.5,5 Z" id="Rectangle-Copy-3" transform="translate(4.500000, 4.500000) rotate(90.000000) translate(-4.500000, -4.500000) "></path>
+        </g>
+    </g>
+</svg>

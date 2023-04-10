@@ -1,9 +1,37 @@
 /* header and nav layout */
 header .nav-wrapper {
-  background-color: var(--background-color);
+  background-color: var(red);
   width: 100%;
   z-index: 2;
   position: fixed;
+}
+
+header .topbar{
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: inherit;
+    border: 0;
+    border-radius: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: none;
+    background-position: 0 0;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
+    background: #f2ecff;
+    color: #3f006d;
+    margin-top:20px;
+
+  }
+
+header div.topbar div  {
+  margin: 20px 20px !important;
+  !important
+  background-color: red;
 }
 
 header nav {
@@ -19,6 +47,8 @@ header nav {
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+  margin-top:20px;
+  margin-bottom:15px;
 }
 
 header nav[aria-expanded="true"] {
@@ -141,24 +171,31 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 128px;
+  flex-basis: 300px;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+    background: url(https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg
+) no-repeat;
+
 }
 
 header nav .nav-brand img {
-  width: 128px;
+
   height: auto;
 }
 
 /* sections */
 header nav .nav-sections {
-  grid-area: sections;
-  flex: 1 1 auto;
-  display: none;
-  visibility: hidden;
-  background-color: var(--overlay-color);
+  width: 936px;
+      margin: auto;
+      display: flex;
+      font-size: 15px;
+      font-weight: 400;
+      justify-content: space-between;
+      align-items: center;
+      height: 30px;
+      margin-top:30px;
 }
 
 header nav[aria-expanded="true"] .nav-sections {

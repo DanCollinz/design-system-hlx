@@ -3,22 +3,65 @@
 main .hero-container > div {
   max-width: unset;
 }
-  
+
 main .hero-container {
   padding: 0;
 }
-  
+
 main .hero {
   position: relative;
-  padding: 32px;
-  min-height: 300px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+main .hero .topbar{
+  top: 80px;
+  background: #f2ecff;
+  color: #3f006d;
+  content: "";
+  background-size: contain;
+  padding:20px;
+}
+
+main .hero .topbar p{
+  color: #3f006d;
+}
+
+main .hero {
+  height:350px;
+
 }
 
 main .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
+  max-width: 500px;
+  margin-left: 20px;
   margin-right: auto;
   color: white;
+  font-size: 40px;
+
+}
+main .hero h2 {
+  max-width: 500px;
+  margin-left: 20px;
+  margin-right: auto;
+  color: white;
+  font-size: 24px;
+
+}
+
+main .hero h3 {
+  max-width: 500px;
+  margin-left: 20px;
+  margin-right: auto;
+  color: white;
+  font-size: 16px;
+
+}
+main .hero p {
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 14px;
+
 }
 
 main .hero picture {

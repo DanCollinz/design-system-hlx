@@ -1,34 +1,37 @@
-.columns > div {
+
+/* block specific CSS goes here */
+
+.two-column-hero > div {
   display: flex;
   flex-direction: column;
   background-color: #28325A;
   color:#ffffff;
 }
 
-.columns img {
+.two-column-hero img {
   width: 100%;
 }
 
-.columns > div > div {
+.two-column-hero > div > div {
   order: 1;
 }
 
-.columns > div > .columns-img-col {
+.two-column-hero > div > .two-column-hero-img-col {
   order: 0;
 }
 
-.columns > div > .columns-img-col img {
+.two-column-hero > div > .two-column-hero-img-col img {
   display: block;
 }
 
 @media (min-width: 900px) {
-  .columns > div {
+  .two-column-hero > div {
     align-items: center;
     flex-direction: unset;
     gap: 32px;
   }
 
-  .columns > div > div {
+  .two-column-hero > div > div {
     flex: 1;
     order: unset;
   }

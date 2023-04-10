@@ -1,0 +1,3686 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Current Challenges in Post-transplant Refractory or Resistant CMV</title>
+    
+    <meta name="description" content="Examine current challenges for post-transplant patients with refractory or resistant CMV. See Important Safety Information and full Prescribing Information."/>
+    <meta name="template" content="page-content"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/vnd.microsoft.icon"/>
+    
+<link rel="livtencity icon" href="/content/dam/takeda/imported/nonproduct/images/favicon.ico"/>
+
+<script src="https://assets.adobedtm.com/8fee56b0a165/7c966f8fdbaa/launch-e35c24ea05a8.min.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PQLNFB');</script>
+<!-- End Google Tag Manager -->
+
+<script type="application/ld+json">{"@context": "http://schema.org", "@type": "MedicalCondition", "name": "Post-transplant refractory or resistant CMV", "sameAs": "https://en.wikipedia.org/wiki/Cytomegalovirus", "code": "B25", "recognizingAuthority":{"@type": "Organization", "name": "Takeda Pharmaceuticals U.S.A., Inc.", "description": "Takeda is a patient-focused, innovation-driven global pharmaceutical company that builds on a distinguished 235-year history, aspiring to bring better health and a brighter future for people worldwide.", "url": "https://www.takeda.com/en-us/", "brand":{"@type": "Brand", "name": "LIVTENCITY (maribavir)", "alternateName": ["LIVTENCITY", "maribavir"], "sameAs": ["https://en.wikipedia.org/wiki/Maribavir"], "url": "https://www.livtencity.com/", "logo": "https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1642700411196/livtencity-logo-2x.svg"}}}</script><script type="application/ld+json">{"@context": "http://schema.org", "@type": "Drug", "name": "LIVTENCITY (maribavir)", "sameAs": "https://en.wikipedia.org/wiki/Maribavir", "manufacturer":{"@type": "Organization", "name": "Takeda Pharmaceuticals U.S.A., Inc.", "description": "Takeda is a patient-focused, innovation-driven global pharmaceutical company that builds on a distinguished 235-year history, aspiring to bring better health and a brighter future for people worldwide.", "url": "https://www.takeda.com/en-us/"}, "proprietaryName": "LIVTENCITY", "prescribingInfo": "https://content.takeda.com/?contenttype=pi&product=liv&language=eng&country=usa&documentnumber=1", "prescriptionStatus": "PrescriptionOnly", "warning": [ "IMPORTANT SAFETY INFORMATION", "Risk of Reduced Antiviral Activity When Co-administered with Ganciclovir and Valganciclovir", "LIVTENCITY may antagonize the antiviral activity of ganciclovir and valganciclovir by inhibiting human CMV pUL97 kinase, which is required for activation/phosphorylation of ganciclovir and valganciclovir. Coadministration of LIVTENCITY with ganciclovir or valganciclovir is not recommended.", "Virologic Failure During Treatment and Relapse Post-Treatment", "Virologic failure due to resistance can occur during and after treatment with LIVTENCITY. Virologic relapse during the posttreatment period usually occurred within 4-8 weeks after treatment discontinuation. Some maribavir pUL97 resistance-associated substitutions confer cross-resistance to ganciclovir and valganciclovir. Monitor CMV DNA levels and check for maribavir resistance if the patient is not responding to treatment or relapses.", "Risk of Adverse Reactions or Loss of Virologic Response Due to Drug Interactions", "The concomitant use of LIVTENCITY and certain drugs may result in potentially significant drug interactions, some of which may lead to reduced therapeutic effect of LIVTENCITY or adverse reactions of concomitant drugs. Consider the potential for drug interactions prior to and during LIVTENCITY therapy; review concomitant medications during LIVTENCITY therapy and monitor for adverse reactions. Refer to the full prescribing information of LIVTENCITY for important drug interactions.", "Maribavir is primarily metabolized by CYP3A4. Drugs that are strong inducers of CYP3A4 are expected to decrease maribavir plasma concentrations and may result in reduced virologic response; therefore, coadministration of LIVTENCITY with these drugs is not recommended, except for selected anticonvulsants.", "Use with Immunosuppressant Drugs", "LIVTENCITY has the potential to increase the drug concentrations of immunosuppressant drugs that are CYP3A and/or P-gp substrates where minimal concentration changes may lead to serious adverse events (including tacrolimus, cyclosporine, sirolimus and everolimus). Frequently monitor immunosuppressant drug levels throughout treatment with LIVTENCITY, especially following initiation and after discontinuation of LIVTENCITY and adjust immunosuppressant dose, as needed.", "Adverse Reactions", "The most common adverse events (all grades,> 10%) in subjects treated with LIVTENCITY were taste disturbance, nausea, diarrhea, vomiting, and fatigue."]}</script><script type="application/ld+json">{"@context": "http://schema.org", "@type": "MedicalIndication", "name": "Uses of LIVTENCITY™ (maribavir)", "description": ["LIVTENCITY is indicated for the treatment of adults and pediatric patients (12 years of age and older and weighing at least 35 kg) with post-transplant cytomegalovirus (CMV) infection/disease that is refractory to treatment (with or without genotypic resistance) with ganciclovir, valganciclovir, cidofovir or foscarnet."]}</script>
+<link rel="canonical" href="https://www.livtencity.com/current-challenges"/>
+    
+
+    
+
+    
+
+
+    
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/klick-mcm/clientlibs/clientlib-base.min.css" type="text/css">
+
+
+
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-dependencies.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-site.min.css" type="text/css">
+
+
+
+    
+
+    
+    
+</head>
+    <body class="page basePage basicpage" id="page-897a6f257e" data-cmp-data-layer-enabled>
+        <script>
+          window.adobeDataLayer = window.adobeDataLayer || [];
+          adobeDataLayer.push({
+              page: JSON.parse("{\x22page\u002D897a6f257e\x22:{\x22@type\x22:\x22klick\u002Dmcm\/components\/structure\/page\x22,\x22repo:modifyDate\x22:\x222023\u002D03\u002D07T14:43:05Z\x22,\x22dc:title\x22:\x22Current Challenges in Post\u002Dtransplant Refractory or Resistant CMV\x22,\x22dc:description\x22:\x22Examine current challenges for post\u002Dtransplant patients with refractory or resistant CMV. See Important Safety Information and full Prescribing Information.\x22,\x22xdm:template\x22:\x22\/conf\/livtencity\u002Dhcp\u002Dbranded\/settings\/wcm\/templates\/page\u002Dcontent\x22,\x22xdm:language\x22:\x22en\u002DUS\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/takeda\/livtencity\u002Dhcp\u002Dbranded\/en_us\/current\u002Dchallenges.html\x22}}"),
+              event:'cmp:show',
+              eventInfo: {
+                  path: 'page.page\u002D897a6f257e'
+              }
+          });
+        </script>
+        
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PQLNFB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+ <script src="/content/dam/takeda/livtencity-hcp/js/livtencity-digitalData-v3.js"></script> 
+
+<style>.pushdown { display: none; }</style>
+
+
+        
+        
+            
+
+
+
+
+            
+
+
+
+            
+<div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="header" class="cmp-experiencefragment cmp-experiencefragment--header">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="navigationContainer aem-GridColumn aem-GridColumn--default--12">
+
+<header class="cmp-header cmp-header-fixed">
+   <div class="cmp-header-eyebrow">
+      <div class="aem-Grid aem-Grid--12">
+         <!-- /*Top parsys for eyebrow*/ -->
+         <div class="aem-GridColumn aem-GridColumn--default--12 ">
+            
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-text.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-text.min.js"></script>
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-ed7c4b0c81" class="cmp-text">
+    <ul>
+<li><span>For U.S. Healthcare Professionals Only</span></li>
+<li><span><a href="#isi">Important Safety Information</a></span></li>
+<li><a href="https://content.takeda.com/?contenttype=pi&amp;product=liv&amp;language=eng&amp;country=usa&amp;documentnumber=1" target="_blank">Prescribing Information</a></li>
+</ul>
+
+</div>
+
+    
+
+
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery.min.js"></script>
+
+
+
+
+</div>
+<div class="cta button cmp-cta__secondary cmp-cta__alignment--desktop-only aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-cta.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-cta.min.js"></script>
+<script src="/etc.clientlibs/klick-mcm/components/commons/common-dialog-fields/common-dialog-clientlibs.min.js"></script>
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<a id="cta-496053d22d" class="cmp-cta  " href="/how-to-order" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>HOW TO ORDER</p>
+</span>
+		</a>
+	</div>
+
+</div>
+<div class="cta button cmp-cta__secondary cmp-cta__alignment--desktop-only aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<button type="button" data-component="modal" data-target="modal-connect-with-us" id="cta-e6bdb8e6b5" class="cmp-cta open-in-modal " rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>CONNECT WITH US</p>
+</span>
+		</button>
+	</div>
+
+</div>
+
+    
+</div>
+
+         </div>
+      </div>
+   </div>
+      <div class="aem-Grid aem-Grid--12">
+         <!-- /*First lower parsys for image or logo*/ -->
+         <div class="aem-GridColumn aem-GridColumn--default--2 cmp-header-left">
+            
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="image aem-GridColumn aem-GridColumn--default--12">
+
+<!-- /* To implement clientlibs theme - START */ -->
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-image.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-image.min.js"></script>
+
+
+
+<!-- /* To implement clientlibs theme - END */ -->
+
+    <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg{.width}.svg/1670601417478/livtencity-logo-2x.svg" data-asset="/content/dam/takeda/imported/nonproduct/images/livtencity-logo-2x.svg" data-title="Livtencity (maribavir) Homepage" id="image-383b4b6dd2" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="cmp-image__link   " href="/" aria-disabled="false" data-cmp-hook-image="link" target="_self">
+        
+            
+            <img src="/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg" class="cmp-image__image " itemprop="contentUrl" data-cmp-hook-image="image" alt="Livtencity (maribavir) Homepage" style="pointer-events: none;"/>
+            
+        
+    </a>
+    
+    
+
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+         </div>
+      <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--1 nav-wrapper">
+         <!-- Second lower parsys for Nav root -->
+         <div class="cmp-header-nav">
+            <div class="cmp-header-scroll">
+             <!-- hamburger menu starts -->
+               <div class="cmp-header-hamburger">
+                  <button aria-expanded="false" aria-label="Open Navigation Menu"><span></span></button>
+               </div>
+               <!-- hamburger menu ends -->
+               <nav class="cmp-navlinks">
+               <ul>
+                  
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-navigation.min.css" type="text/css">
+
+
+
+
+    
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-navigation.min.js"></script>
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/current-challenges" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label active">
+               Current Challenges
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/efficacy" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               Efficacy
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/safety" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               Safety
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/dosing" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               Dosing
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/moa" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               MOA
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/resources" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               Resources
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="navigation aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<style>
+   body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Arial', sans-serif;
+   font-size: 14px;
+   }
+
+</style>
+
+<!-- /*NAVIGATION STARTS*/ -->
+
+
+
+   <li class="cmp-header-menu">
+      
+          <a class="cmp-nav-item  " href="/takeda-patient-support" aria-haspopup="true" aria-expanded="false" target="_self">
+            <span class="cmp-item-label ">
+               Takeda Patient Support
+            </span>
+         </a>
+         <button data-type="nav" aria-expanded="false"><span class="visuallyhidden"></span></button>
+      
+      <div class="cmp-header-submenu">
+         <ul>
+            
+               
+            
+         </ul>
+      </div>
+   </li>
+
+<!-- /*NAVIGATION ENDS*/ -->
+
+    
+</div>
+<div class="cta button cmp-cta__secondary cmp-cta__alignment--mobile-only aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<a id="cta-7df556d950" class="cmp-cta  " href="/how-to-order" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>HOW TO ORDER</p>
+</span>
+		</a>
+	</div>
+
+</div>
+<div class="cta button cmp-cta__secondary cmp-cta__alignment--mobile-only aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<button type="button" data-component="modal" data-target="modal-connect-with-us" id="cta-ea51956a2c" class="cmp-cta open-in-modal " rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>CONNECT WITH US</p>
+</span>
+		</button>
+	</div>
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-7246d60bdc" class="cmp-text">
+    <ul>
+<li><a href="#isi">Important Safety Information</a></li>
+<li><a href="https://content.takeda.com/?contenttype=pi&amp;product=liv&amp;language=eng&amp;country=usa&amp;documentnumber=1" target="_blank">Prescribing Information</a></li>
+</ul>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+         <div class="aem-GridColumn aem-GridColumn--default--2 aem-GridColumn--offset--default--1 right-side">
+            
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+
+            <!-- /*Third lower parsys for other components*/ -->
+         </div>
+      </div>
+
+  <!-- hamburger menu starts -->
+   <div class="cmp-header-hamburger">
+      <button aria-expanded="false" aria-label="Open Navigation Menu"><span></span></button>
+   </div>
+   <!-- hamburger menu ends -->
+             
+</header></div>
+
+    
+</div>
+
+</div></div>
+
+    
+</div>
+<div class="modal aem-GridColumn aem-GridColumn--default--12">
+
+
+
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-modal.min.css" type="text/css">
+
+
+
+	
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js"></script>
+<script src="/etc.clientlibs/klick-mcm/clientlibs/clientlib-global.min.js"></script>
+<script src="/etc.clientlibs/klick-mcm/components/content/modal/clientlibs.min.js"></script>
+
+
+
+
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<!-- modal actual -->
+
+<div class="cmp-modal entry" id="modal-connect-with-us" data-modalType='entry' hidden>
+
+	<div class="cmp-modal-header">
+		<button data-close-modal class="visible" aria-label="Close"></button>
+	</div>
+
+	<div class="cmp-modal_content">
+		<div class="xfpage page basicpage">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-container__form--text aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-container.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-container.min.js"></script>
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-a58a5b5f4b" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 ">
+    
+    <div class="text aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-33179c719b" class="cmp-text">
+    <h3><span class="cmp-text__color--indigo"><span class="cmp-text__heading">Get Connected…</span></span></h3>
+<p><em>By providing your contact information, your Takeda Transplant Account Manager can keep you informed about important developments relevant to you and your institution. All fields are required unless marked as optional.</em></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__form--bg aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    
+    
+    <div id="container-2fa3747506" class="cmp-container">
+        <picture>
+            <source media="screen and (max-width: 767px)"/>
+            <source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+            <source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+            <img style="width:auto;"/>
+        </picture>
+        
+        <div class="container responsivegrid"><!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-form.min.css" type="text/css">
+
+
+
+
+    
+<script src="/etc.clientlibs/klick-mcm/clientlibs/clientlib-parsley.min.js"></script>
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-form.min.js"></script>
+
+
+
+<!-- To implement clientlibs theme - END -->
+<form method="POST" action="/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/modal/request-submit/_jcr_content/root/container_498511813/container_copy_copy.mcm-registration.json" id="signupForm" name="signupForm" enctype="multipart/form-data" class="cmp-form">
+    
+    
+     <input type="hidden" data-fieldform="true" name="eventName" value="LIV_H_WELCOME_TAM_NAV"/>   
+    
+    <div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="firstName" class="required"><p>First Name</p>
+</label>
+    
+    
+    <input type="text" id="firstName" name="firstName" data-fieldform="true" required class="cmp-form-text__text" data-parsley-required-message="Please enter your first name." data-parsley-type-message="Please enter your first name."/>
+    
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="lastName" class="required"><p>Last Name</p>
+</label>
+    
+    
+    <input type="text" id="lastName" name="lastName" data-fieldform="true" required class="cmp-form-text__text" data-parsley-required-message="Please enter your last name." data-parsley-pattern-message="Please enter your last name." data-parsley-pattern="^[a-zA-Z ]+$"/>
+    
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="email" class="required"><p>Email</p>
+</label>
+    
+    
+    <input type="text" id="email" name="email" data-fieldform="true" required class="cmp-form-text__text" data-parsley-required-message="Please enter your email address." data-parsley-type-message="Please enter a valid email address."/>
+    
+</div></div>
+<div class="options aem-GridColumn aem-GridColumn--default--12">
+    
+    
+    
+        <div class="cmp-form-option">
+            <label for="initialConnection" class="required"><p>Initial Connection Preference</p>
+</label>
+            <select id="initialConnection" name="LIV_H_Q1" data-fieldform="true" required="true" data-parsley-required-message="Please select your connection preference.">
+                <option value="" hidden></option>
+                
+                    <option disabled>
+                        Initial Connection Preference</option>
+                
+                    <option value="LIV_H_A1">
+                        Phone</option>
+                
+                    <option value="LIV_H_A2">
+                        Email</option>
+                
+            </select>
+        </div>
+    
+
+
+    
+</div>
+<div class="options aem-GridColumn aem-GridColumn--default--12">
+    
+    
+    
+        <div class="cmp-form-option">
+            <label for="specialty" class="required"><p>Specialty</p>
+</label>
+            <select id="specialty" name="LIV_H_Q2" data-fieldform="true" required="true" data-parsley-required-message="Please select your specialty.">
+                <option value="" hidden></option>
+                
+                    <option disabled>
+                        Specialty</option>
+                
+                    <option value="LIV_H_A3">
+                        Cardiologist</option>
+                
+                    <option value="LIV_H_A4">
+                        Financial Coordinator</option>
+                
+                    <option value="LIV_H_A5">
+                        Hematologist/ Oncologist</option>
+                
+                    <option value="LIV_H_A6">
+                        Hepatologist</option>
+                
+                    <option value="LIV_H_A7">
+                        Infectious Disease Specialist</option>
+                
+                    <option value="LIV_H_A8">
+                        Nephrologist</option>
+                
+                    <option value="LIV_H_A9">
+                        NP/PA</option>
+                
+                    <option value="LIV_H_A10">
+                        Pharmacist/PharmD</option>
+                
+                    <option value="LIV_H_A11">
+                        Pulmonologist</option>
+                
+                    <option value="LIV_H_A12">
+                        Surgeon</option>
+                
+                    <option value="LIV_H_A13">
+                        Transplant RN</option>
+                
+                    <option value="LIV_H_A14">
+                        Transplant Coordinator</option>
+                
+                    <option value="LIV_H_A15">
+                        Other Specialty</option>
+                
+            </select>
+        </div>
+    
+
+
+    
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="institutionName" class="required"><p>Institution Name</p>
+</label>
+    
+    
+    <input type="textwithcharacters" id="institutionName" name="LIV_H_Q3" data-fieldform="true" required class="cmp-form-text__text" maxlength="150" data-parsley-required-message="Please enter your institution name." data-parsley-pattern="^[a-zA-Z ]+$"/>
+    
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="npiNumber"><p>NPI Number (optional)</p>
+</label>
+    
+    
+    <input type="number" id="npiNumber" name="LIV_H_Q4" data-fieldform="true" class="cmp-form-text__text" data-parsley-required-message="Please enter a valid NPI number." data-parsley-type-message="Please enter a valid NPI number."/>
+    
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="phoneNumber"><p>Phone Number (optional)</p>
+</label>
+    
+    
+    <input type="text" id="phoneNumber" name="phone" data-fieldform="true" class="cmp-form-text__text" data-parsley-required-message="Please enter a valid phone number." data-parsley-type-message="Please enter a valid phone number."/>
+    
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12"><div class="cmp-form-text">
+    
+    <label for="zipCode" class="required"><p>Zip Code</p>
+</label>
+    
+    
+    <input type="number" id="zipCode" name="LIV_H_Q5" data-fieldform="true" required class="cmp-form-text__text" data-parsley-required-message="Please enter a valid zip code." data-parsley-type="integer" data-parsley-type-message="Please enter a valid zip code."/>
+    
+</div></div>
+<div class="options aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--default--0">
+    
+    
+        <fieldset class="checkbox" id="option_field_contactDirect">
+            <legend class="required"><p> Contact Direct</p>
+</legend>
+            <div class="cmp-form-checkbox">
+                
+                    
+                <input type="checkbox" id="contactDirect_1" name="LIV_H_Q6" data-fieldform="true" data-checkedValue="LIV_H_A17" required="true" data-parsley-error-message="Please select consent checkbox." data-parsley-errors-container="#option_field_contactDirect"/>
+                
+                <label for="contactDirect_1"><p>I agree to receive email communications with updates concerning product information, disease education, patient support programs and other topics from Takeda on LIVTENCITY<span class="standard">®</span> (maribavir)</p>
+<p>Your privacy is important to us. For more information, please refer to our <button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://www.takeda.com/privacy-notice/">Privacy Notice</button>. To manage your communication preferences visit our <button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/609b34e2-ca85-4a7b-a720-6e8675ade814">preference center</button>.<br />
+</p>
+<p>By providing your information, you certify that you are a healthcare professional.<br />
+</p>
+</label>
+            </div>
+
+        </fieldset>
+    
+    
+
+
+    
+</div>
+<div class="button aem-GridColumn aem-GridColumn--default--12"><button type="SUBMIT" id="form-button-709207678" class="cmp-form-submit" name="submit"><span>Submit</span></button></div>
+<div class="recaptcha aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-recaptcha.min.js"></script>
+
+
+
+
+
+<div class="mcm-recaptcha">
+    <div class="g-recaptcha" data-sitekey="6Lff-2QeAAAAAEBww7IggkIutJTETBa5u3pWOPk-" data-callback="submitCaptchaResponse" data-size="invisible" data-badge="inline"></div>
+    <input type="hidden" name="currentpage" data-fieldform="true" value="/content/takeda/livtencity-hcp-branded/en_us/current-challenges"/>
+    <input type="hidden" name="captchatype" data-fieldform="true" value="invisible"/>
+    <input type="hidden" name="recaptcha-response" data-fieldform="true" value=""/>
+    <div class="captchaerror"></div>
+    <div id="customparams" currentpage="/content/takeda/livtencity-hcp-branded/en_us/current-challenges" captchatype="invisible" clienterror="Verification failed, Check the checkbox again."></div>
+</div>
+
+<script>
+    const targets = document.querySelectorAll("form");
+
+    const lazyLoad = (target)=>{
+        const io = new IntersectionObserver((entries,observer)=>{
+            entries.forEach(entry=>{
+                if(entry.isIntersecting){
+                    var script = document.createElement('script');
+                    script.src = "https://www.google.com/recaptcha/api.js";
+                    script.async = false; // This is required for synchronous execution
+                    document.body.appendChild(script);
+                    observer.disconnect();
+                }
+            })
+        },{threshold:0.05});
+
+        io.observe(target);
+    }
+    targets.forEach(lazyLoad);
+</script></div>
+
+    
+</div>
+</div>
+    <p class="cmp-form-error">Sorry, an error occurred while processing your request.</p>
+    
+    <div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="formInformation" class="cmp-text">
+    <p> </p>
+<p>For clinical information about Takeda products, please contact Takeda Medical Affairs at (877) 825-3327 or (877) TAKEDA-7, or visit <a href="https://www.takedamedconnect.com/s/" target="_blank"><button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://www.takedamedconnect.com/s/">MedConnect</button></a>.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+</div>
+</form>
+
+<div class="cmp-form-success" data-form-id="signupForm">
+    <div>
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cta button aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<a id="formSuccessCta" class="cmp-cta  " href="/thank-you" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><div>Success</div>
+<div> </div>
+</span>
+		</a>
+	</div>
+
+</div>
+
+    
+</div>
+</div>
+</div></div>
+
+        
+    </div>
+
+</div>
+
+    
+</div>
+
+</div></div>
+
+
+		<div class="cmp-exit-buttons" hidden>
+
+			
+			
+
+			
+
+			
+
+
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+</div>
+</div>
+<div class="responsivegrid cmp-page__treatment-challenges aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-container__hero--padding-top cmp-container__layout--interior aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-08a71f0e6b" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__page-border--orange-soda aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-2f982eda31" class="cmp-text">
+    <h1><span class="cmp-text__heading"><span class="cmp-text__color--orange-soda">Despite therapeutic advancements, the incidence of refractory or resistant CMV in post-transplant patients remains a challenge<sup>1</sup></span></span></h1>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-d3fece4808" class="cmp-text">
+    <p>US Incidence of refractory or resistant CMV in SOT and HCT recipients<sup>1</sup></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="container responsivegrid cmp-container__page-treatment-option--cmv aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-188d06fe53" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__table--cmv aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-b298825a63" class="cmp-text">
+    <table cellpadding="0" cellspacing="0" border="0">
+<tbody><tr><th scope="col"> </th>
+<th scope="col">Refractory CMV</th>
+<th scope="col">Resistant CMV</th>
+</tr><tr><th scope="row"><b>SOT </b>recipients</th>
+<td>Up to<br />
+<b>21%</b></td>
+<td>Up to<br />
+<b>14%</b></td>
+</tr><tr><th><b>HCT </b>recipients</th>
+<td>Up to<br />
+<b>47%</b></td>
+<td>Up to<br />
+<b>19%</b></td>
+</tr></tbody></table>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-cbb0d84ad5" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cta button cmp-cta__white cmp-cta__alignment--full-width aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<button type="button" data-component="modal" data-target="modal-about-the-data" id="cta-dfeb3966c0" class="cmp-cta open-in-modal " href="#" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>About the data</p>
+</span>
+		</button>
+	</div>
+
+</div>
+<div class="cta button cmp-cta__white cmp-cta__alignment--full-width aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<button type="button" data-component="modal" data-target="modal-consensus-def" id="cta-beacd6d138" class="cmp-cta open-in-modal " href="#" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>Consensus definitions of refractory or resistant CMV</p>
+</span>
+		</button>
+	</div>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-2b4caf2e7b" class="cmp-text">
+    <p><span class="cmp-text__copy">Data from a 2020 Takeda systematic review of 86 observational (non-interventional) studies in the US and Europe.</span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__gray-bg cmp-container__page-treatment-option--factor aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-39b6130f98" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-5a905592f6" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="text cmp-text__page-border--orange-soda aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-5691a1500e" class="cmp-text">
+    <h2><span class="cmp-text__heading"><span class="cmp-text__color--orange-soda">Many factors may be associated with an increased risk of developing refractory or resistant CMV <span class="cmp-text__no-break">post-transplant</span><sup>3-6</sup></span></span></h2>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--1">
+
+<!-- /* To implement clientlibs theme - START */ -->
+
+
+
+
+
+    
+
+
+
+<!-- /* To implement clientlibs theme - END */ -->
+
+    <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/current-challenges/_jcr_content/root/container/container_1764720809/container/image.coreimg{.width}.svg/1670600315457/risk-factor-graph-v3.svg" data-asset="/content/dam/takeda/imported/livtencity/images/risk-factor-graph-v3.svg" data-title="Risk factor chart" id="image-92e74fb68c" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="cmp-image__link   " aria-disabled="false" data-cmp-hook-image="link">
+        
+            
+            <img src="/current-challenges/_jcr_content/root/container/container_1764720809/container/image.coreimg.svg/1670600315457/risk-factor-graph-v3.svg" class="cmp-image__image " itemprop="contentUrl" data-cmp-hook-image="image" alt="Risk factor chart" style="pointer-events: none;"/>
+            
+        
+    </div>
+    
+    
+
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-1a60303cb3" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="text aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--7 aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--2 aem-GridColumn--offset--default--1">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-eb0fe745e2" class="cmp-text">
+    <p style="text-align: center;"><span class="cmp-text__copy--legal"><br />
+ HLA=human leukocyte antigen.</span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn aem-GridColumn--phone--3 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-730fd562c0" class="cmp-text">
+    <p><span class="cmp-text__copy--legal">*HCT only.<br />
+ <span><sup>†</sup>SOT only.</span></span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__layout--interior cmp-container__page-treatment-option--factor aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-51c8869484" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__border-top--orange-soda aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-2c08acf2ca" class="cmp-text">
+    <p style="text-align: center;"><span class="cmp-text__copy--24">The incidence of post-transplant refractory or resistant CMV, along with the significant and multifaceted risk factors, illustrate some of the current challenges these patients face.</span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__callout--oral-formulation aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-e97fa9a62c" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-bbd5cb896d" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__hero--sub-heading aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-ab2cf3d5d9" class="cmp-text">
+    <p><strong>Learn more about a treatment option in <span class="cmp-text__no-break">post-transplant</span> refractory or resistant CMV.<sup>7</sup></strong></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="cta button cmp-cta__primary aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<a id="cta-098a7afad7" class="cmp-cta  " href="/efficacy" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>GET STARTED</p>
+</span>
+		</a>
+	</div>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="modal cmp-modal__info aem-GridColumn aem-GridColumn--default--12">
+
+
+
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<!-- modal actual -->
+
+<div class="cmp-modal entry" id="modal-about-the-data" data-modalType='entry' hidden>
+
+	<div class="cmp-modal-header">
+		<button data-close-modal class="visible" aria-label="Close"></button>
+	</div>
+
+	<div class="cmp-modal_content">
+		<div class="xfpage page basicpage">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-container__layout--interior aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-9a8bcc6f06" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__page-border--orange-soda aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-d4be5712ca" class="cmp-text">
+    <p><span class="cmp-text__color--orange-soda"><span class="cmp-text__heading">About the data</span></span></p>
+<p><span class="cmp-text__copy">Data from a 2020 systematic review of observational (non-interventional) studies in the US and Europe. Takeda conducted a study using methods proposed by the Cochrane Group and the Institute of Medicine of the National Academy of Medicine. Abstract screening was conducted independently by two reviewers and discrepancies were resolved by a third reviewer. Overall, 86 studies were included in the systematic review. The majority of studies were retrospective cohort analyses (n=75).<sup>1</sup></span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-06d019671f" class="cmp-text">
+    <p><span class="cmp-text__copy-large">Summary of studies included in this systematic review<sup>1</sup>:</span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="container responsivegrid cmp-container__patient-type--content aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-eec6d50b8f" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-40dc28b9bc" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-8942ac5858" class="cmp-text">
+    <table cellpadding="0" cellspacing="0" border="0">
+<tbody><tr><td>Patient type</td>
+<td>Study population size</td>
+<td>Timing of assessment</td>
+</tr></tbody></table>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__patient-type--orange-soda aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-039eb85866" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-8cfcfca7c9" class="cmp-text">
+    <p>SOT recipients</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-9b8aa90d16" class="cmp-text">
+    <table cellpadding="0" cellspacing="0" border="0">
+<tbody><tr><th>Patient type</th>
+<th><b>Refractory CMV</b></th>
+</tr><tr><td>Study population size</td>
+<td><b>100 to 500 patients</b> (2 studies)</td>
+</tr><tr><td>Timing of assessment</td>
+<td><b>≥1 year post-transplant</b> (2 studies)</td>
+</tr><tr><th>Patient type</th>
+<th><b>Resistant CMV</b></th>
+</tr><tr><td>Study population size</td>
+<td><b>≤100 patients</b> (3 studies)<br />
+<b>100 to 500 patients</b> (6 studies)</td>
+</tr><tr><td>Timing of assessment</td>
+<td><b>Unknown</b> (4 studies)<br />
+<b>≥1 year post-transplant</b> (5 studies)</td>
+</tr></tbody></table>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__patient-type--acid-green aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-1fc5fe7ae2" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-4b035453ef" class="cmp-text">
+    <p>HCT recipients</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-b344ed0b33" class="cmp-text">
+    <table cellpadding="0" cellspacing="0" border="0">
+<tbody><tr><th>Patient type</th>
+<th><strong>Refractory CMV</strong></th>
+</tr><tr><td>Study population size</td>
+<td><strong>≤100 patients</strong> (2 studies)</td>
+</tr><tr><td>Timing of assessment</td>
+<td><strong>≤100 days post-transplant</strong> (2 studies)</td>
+</tr><tr><th>Patient type</th>
+<th><strong>Resistant CMV</strong></th>
+</tr><tr><td>Study population size</td>
+<td><strong>≤100 patients</strong> (1 study)<br />
+<strong>100 to 500 patients</strong> (7 studies)</td>
+</tr><tr><td>Timing of assessment</td>
+<td><strong>During follow-up, variable time period</strong> (2 studies)<br />
+<strong>≤100 days post-transplant</strong> (2 studies)<br />
+<strong>&gt;100 days &lt;1 year post-transplant</strong> (1 study)<br />
+<strong>≥1 year post-transplant</strong> (3 studies)</td>
+</tr></tbody></table>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+</div></div>
+
+
+		<div class="cmp-exit-buttons" hidden>
+
+			
+			
+
+			
+
+			
+
+
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+</div>
+</div>
+<div class="modal cmp-modal__info aem-GridColumn aem-GridColumn--default--12">
+
+
+
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<!-- modal actual -->
+
+<div class="cmp-modal entry" id="modal-consensus-def" data-modalType='entry' hidden>
+
+	<div class="cmp-modal-header">
+		<button data-close-modal class="visible" aria-label="Close"></button>
+	</div>
+
+	<div class="cmp-modal_content">
+		<div class="xfpage page basicpage">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-container__layout--interior aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-fcd62d5f00" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__page-border--orange-soda aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-68e46028ae" class="cmp-text">
+    <p><span class="cmp-text__color--orange-soda"><span class="cmp-text__heading">Consensus definitions of refractory or resistant CMV </span></span><span class="cmp-text__hero--heading-efficacy"><span class="cmp-text__color--orange-soda"><br />
+</span></span></p>
+<p><span class="cmp-text__copy-large">Refractory or resistant CMV is typically diagnosed after failure to respond to 2 weeks of appropriate antiviral therapy<sup>1</sup></span></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="container responsivegrid cmp-container__cmv--set aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-a858214b9f" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="container responsivegrid cmp-container__cmv--orange-soda aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-21b3bef2f9" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 aem-Grid--phone--12 ">
+    
+    <div class="text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-2f24d234c9" class="cmp-text">
+    <h3><strong>Probable refractory CMV infection<sup>2</sup>:</strong></h3>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-a5c6d44537" class="cmp-text">
+    <ul>
+<li>Persistent viral load after at least 2 weeks of appropriately dosed antiviral therapy</li>
+<li>CMV viral load at the same level or higher than the peak viral load within 1 week but &lt;1 log<sub>10</sub> increase in CMV DNA titers done in the same laboratory and with the same assay</li>
+</ul>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__cmv--orange-soda cmp-container__cmv--offset aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-58d8bbe5d5" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--6 aem-Grid--default--6 aem-Grid--phone--12 ">
+    
+    <div class="text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-96f11768e4" class="cmp-text">
+    <h3><strong>Definite Refractory CMV infection<sup>1,2</sup>:</strong></h3>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-4da6c74acb" class="cmp-text">
+    <ul>
+<li>Increase in CMV DNA or failure to achieve decrease in CMV DNA level (&gt;1 log<sub>10</sub>) in whole blood or plasma after 2 or more weeks of treatment with appropriately dosed antiviral therapy</li>
+<li>May occur in the presence or absence of an identified mutation</li>
+</ul>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="container responsivegrid cmp-container__cmv--acid-green cmp-container__cmv--offset aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-ff0ab61acf" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-4e9f1b8900" class="cmp-text">
+    <h3><strong>Resistant CMV infection<sup>2</sup>:</strong></h3>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-d9eddd806b" class="cmp-text">
+    <ul>
+<li>Confirmation of an alteration in the viral genetic sequence that decreases susceptibility to 1 or more antiviral CMV treatments</li>
+<li>Must also meet the definition of refractory CMV infection</li>
+</ul>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+</div></div>
+
+
+		<div class="cmp-exit-buttons" hidden>
+
+			
+			
+
+			
+
+			
+
+
+			
+
+			
+
+			
+
+			
+		</div>
+	</div>
+</div>
+</div>
+<div class="container responsivegrid cmp-container__layout--interior cmp-container__layout--no-padding aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-38b1e184f0" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="accordion cmp-accordion__reference aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-accordion.min.css" type="text/css">
+
+
+
+	
+    
+<script src="/etc.clientlibs/klick-mcm/components/content/accordion/clientlibs/accordion.min.js"></script>
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+<div id="accordion-f32e9e928d" class="cmp-accordion" data-cmp-is="accordion" data-cmp-data-layer="{&#34;accordion-f32e9e928d&#34;:{&#34;shownItems&#34;:[&#34;accordion-f32e9e928d-item-edf262247f&#34;],&#34;@type&#34;:&#34;klick-mcm/components/content/accordion&#34;,&#34;repo:modifyDate&#34;:&#34;2021-11-17T16:43:09Z&#34;}}">
+    <div class="cmp-accordion__item" data-cmp-hook-accordion="item" data-cmp-data-layer="{&#34;accordion-f32e9e928d-item-edf262247f&#34;:{&#34;@type&#34;:&#34;klick-mcm/components/content/accordion/item&#34;,&#34;dc:title&#34;:&#34;References&#34;}}" id="accordion-f32e9e928d-item-edf262247f" data-cmp-expanded data-component="accordion">
+        <h2 data-trigger class="cmp-accordion__header">
+            <button id="accordion-f32e9e928d-item-edf262247f-button" class="cmp-accordion__button cmp-accordion__button--expanded" aria-controls="accordion-f32e9e928d-item-edf262247f-panel" data-cmp-hook-accordion="button">
+                <span class="cmp-accordion__title">References</span>
+                <span class="cmp-accordion__icon"></span>
+            </button>
+        </h2>
+        <div data-panel data-cmp-hook-accordion="panel" id="accordion-f32e9e928d-item-edf262247f-panel" class="cmp-accordion__panel cmp-accordion__panel--expanded" role="region" aria-labelledby="accordion-f32e9e928d-item-edf262247f-button"><div class="responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-0088ede780" class="cmp-text">
+    <p><strong>1.</strong> Data on file. Takeda Pharmaceuticals U.S.A., Inc. <strong>2.</strong> Chemaly RF, Chou S, Einsele H, et al. <em>Clin Infect Dis</em>. 2019;68(8):1420-1426. <strong>3.</strong> El Chaer F, Shah DP, Chemaly RF. <em>Blood</em>. 2016;128:2624-2636. <strong>4.</strong> Fisher CE, Knudsen JL, Lease ED, et al. <em>Clin Infect Dis</em>. 2017;65(1):57-63. <strong>5.</strong> Sandkovsky U, Qiu F, Kalil AC, et al. <em>Transplant Proc</em>. 2018;50(10):3763-3768. <strong>6.</strong> Liu J, Kong J, Chang YJ, et al. <em>Clin Microbiol Infect</em>. 2015;21(12):1121.e9-15. <strong>7.</strong> Livtencity (maribavir) Prescribing Information. Lexington, MA: Takeda Pharmaceuticals U.S.A., Inc.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+</div>
+</div>
+    </div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+<div class="modal cmp-modal__exit aem-GridColumn aem-GridColumn--default--12">
+
+
+
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+
+
+
+	
+    
+
+
+
+	
+    
+
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<!-- modal actual -->
+
+<div class="cmp-modal exit" id="exit-modal" data-modalType='exit' hidden>
+
+	<div class="cmp-modal-header">
+		<button data-close-modal class="visible" aria-label="Close"></button>
+	</div>
+
+	<div class="cmp-modal_content">
+		<div class="xfpage page basicpage">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-affed356f3" class="cmp-text">
+    <p>You are being directed to another website.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+</div></div>
+
+
+		<div class="cmp-exit-buttons">
+
+			
+			
+
+			
+
+			
+
+
+			<a data-close-modal class="visible cmp-cta" aria-label="Cancel" rel="noreferrer" target="_self">
+				<span class="cmp-cta-text"><p>Cancel</p>
+</span>
+			</a>
+
+			
+
+			<a id="exit-modal-accept" class="cmp-cta" rel="noreferrer" target="_blank"> <span class="cmp-cta-text"><p>Continue</p>
+</span>
+			</a>
+
+			
+		</div>
+	</div>
+</div>
+</div>
+
+    
+</div>
+</div>
+<div class="isi experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+  }
+</style>
+
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-isi.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-isi.min.js"></script>
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div class="cmp-isi" id="isi">
+	<div id="isi-header" class="cmp-isi-inline">
+	    <h2><span>Important Safety Information</span></h2>
+	    <div class="cmp-experiencefragment cmp-experiencefragment--important-safety-info">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__isi--fixed cmp-text__isi--inline cmp-text__isi--onload aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-d73628023b" class="cmp-text">
+    <p><strong>Risk of Reduced Antiviral Activity When <span class="cmp-text__no-break">Co-administered</span> with Ganciclovir and Valganciclovir</strong></p>
+<p>LIVTENCITY may antagonize the antiviral activity of ganciclovir and valganciclovir by inhibiting human CMV pUL97 kinase, which is required for activation/phosphorylation of ganciclovir and valganciclovir. Coadministration of LIVTENCITY with ganciclovir or valganciclovir is not recommended.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text cmp-text__isi--fixed cmp-text__isi--inline cmp-text__isi--onload aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-3e360cca20" class="cmp-text">
+    <p><strong>Virologic Failure During Treatment and Relapse Post-Treatment</strong><br />
+</p>
+<p>Virologic failure due to resistance can occur during and after treatment with LIVTENCITY. Virologic relapse during the posttreatment period usually occurred within 4-8 weeks after treatment discontinuation. Some maribavir pUL97 resistance-associated substitutions confer cross-resistance to ganciclovir and valganciclovir. Monitor CMV DNA levels and check for maribavir resistance if the patient is not responding to treatment or relapses.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text cmp-text__isi--inline aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-28673b567c" class="cmp-text">
+    <p><strong>Risk of Adverse Reactions or Loss of Virologic Response Due to Drug Interactions</strong><br />
+</p>
+<p>The concomitant use of LIVTENCITY and certain drugs may result in potentially significant drug interactions, some of which may lead to reduced therapeutic effect of LIVTENCITY or adverse reactions of concomitant drugs.  Consider the potential for drug interactions prior to and during LIVTENCITY therapy; review concomitant medications during LIVTENCITY therapy and monitor for adverse reactions. Refer to the full prescribing information of LIVTENCITY for important drug interactions.</p>
+<p>Maribavir is primarily metabolized by CYP3A4. Drugs that are strong inducers of CYP3A4 are expected to decrease maribavir plasma concentrations and may result in reduced virologic response; therefore, coadministration of LIVTENCITY with these drugs is not recommended, except for selected anticonvulsants.  </p>
+<p><u>Use with Immunosuppressant Drugs</u></p>
+<p>LIVTENCITY has the potential to increase the drug concentrations of immunosuppressant drugs that are CYP3A and/or P-gp substrates where minimal concentration changes may lead to serious adverse events (including tacrolimus, cyclosporine, sirolimus and everolimus). Frequently monitor immunosuppressant drug levels throughout treatment with LIVTENCITY, especially following initiation and after discontinuation of LIVTENCITY and adjust immunosuppressant dose, as needed.</p>
+<p><strong>Adverse Reactions</strong></p>
+<p>The most common adverse events (all grades,&gt; 10%) in subjects treated with LIVTENCITY were taste disturbance, nausea, diarrhea, vomiting, and fatigue.</p>
+<h3><span class="cmp-text__color--primary"><span class="cmp-text__copy--24">INDICATION</span></span></h3>
+<p>LIVTENCITY is indicated for the treatment of adults and pediatric patients (12 years of age and older and weighing at least 35 kg) with post-transplant cytomegalovirus (CMV) infection/disease that is refractory to treatment (with or without genotypic resistance) with  ganciclovir, valganciclovir, cidofovir or foscarnet.</p>
+<p><strong><span class="cmp-text__color--indigo"><em>Please click for <a href="https://content.takeda.com/?contenttype=pi&amp;product=liv&amp;language=eng&amp;country=usa&amp;documentnumber=1" target="_blank">Full Prescribing Information</a>.</em></span></strong></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+</div></div>
+	</div>
+	<div id="fixed_isi" class="cmp-isi-fixed" aria-expanded="false">
+    	<div class="cmp-isi-fixed-header">
+    	<div class="cmp-isi-fixed-header-wrapper">
+	      <h2><span>Important Safety Information</span></h2>
+	      <button class="cmp-isi-fixed-button" aria-expanded="false" aria-controls="fixed_isi" aria-label="{See more}">
+	        <span class="see-more">Expand</span>
+	        <span class="see-less">Collapse</span>
+	      </button>
+	      </div>
+    	</div>
+   		<div class="cmp-isi-fixed-content">
+      		<div>
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text cmp-text__isi--fixed cmp-text__isi--inline cmp-text__isi--onload aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-d73628023b" class="cmp-text">
+    <p><strong>Risk of Reduced Antiviral Activity When <span class="cmp-text__no-break">Co-administered</span> with Ganciclovir and Valganciclovir</strong></p>
+<p>LIVTENCITY may antagonize the antiviral activity of ganciclovir and valganciclovir by inhibiting human CMV pUL97 kinase, which is required for activation/phosphorylation of ganciclovir and valganciclovir. Coadministration of LIVTENCITY with ganciclovir or valganciclovir is not recommended.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text cmp-text__isi--fixed cmp-text__isi--inline cmp-text__isi--onload aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-3e360cca20" class="cmp-text">
+    <p><strong>Virologic Failure During Treatment and Relapse Post-Treatment</strong><br />
+</p>
+<p>Virologic failure due to resistance can occur during and after treatment with LIVTENCITY. Virologic relapse during the posttreatment period usually occurred within 4-8 weeks after treatment discontinuation. Some maribavir pUL97 resistance-associated substitutions confer cross-resistance to ganciclovir and valganciclovir. Monitor CMV DNA levels and check for maribavir resistance if the patient is not responding to treatment or relapses.</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="text cmp-text__isi--inline aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-28673b567c" class="cmp-text">
+    <p><strong>Risk of Adverse Reactions or Loss of Virologic Response Due to Drug Interactions</strong><br />
+</p>
+<p>The concomitant use of LIVTENCITY and certain drugs may result in potentially significant drug interactions, some of which may lead to reduced therapeutic effect of LIVTENCITY or adverse reactions of concomitant drugs.  Consider the potential for drug interactions prior to and during LIVTENCITY therapy; review concomitant medications during LIVTENCITY therapy and monitor for adverse reactions. Refer to the full prescribing information of LIVTENCITY for important drug interactions.</p>
+<p>Maribavir is primarily metabolized by CYP3A4. Drugs that are strong inducers of CYP3A4 are expected to decrease maribavir plasma concentrations and may result in reduced virologic response; therefore, coadministration of LIVTENCITY with these drugs is not recommended, except for selected anticonvulsants.  </p>
+<p><u>Use with Immunosuppressant Drugs</u></p>
+<p>LIVTENCITY has the potential to increase the drug concentrations of immunosuppressant drugs that are CYP3A and/or P-gp substrates where minimal concentration changes may lead to serious adverse events (including tacrolimus, cyclosporine, sirolimus and everolimus). Frequently monitor immunosuppressant drug levels throughout treatment with LIVTENCITY, especially following initiation and after discontinuation of LIVTENCITY and adjust immunosuppressant dose, as needed.</p>
+<p><strong>Adverse Reactions</strong></p>
+<p>The most common adverse events (all grades,&gt; 10%) in subjects treated with LIVTENCITY were taste disturbance, nausea, diarrhea, vomiting, and fatigue.</p>
+<h3><span class="cmp-text__color--primary"><span class="cmp-text__copy--24">INDICATION</span></span></h3>
+<p>LIVTENCITY is indicated for the treatment of adults and pediatric patients (12 years of age and older and weighing at least 35 kg) with post-transplant cytomegalovirus (CMV) infection/disease that is refractory to treatment (with or without genotypic resistance) with  ganciclovir, valganciclovir, cidofovir or foscarnet.</p>
+<p><strong><span class="cmp-text__color--indigo"><em>Please click for <a href="https://content.takeda.com/?contenttype=pi&amp;product=liv&amp;language=eng&amp;country=usa&amp;documentnumber=1" target="_blank">Full Prescribing Information</a>.</em></span></strong></p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+</div></div>
+    	</div>
+  	</div>
+</div>
+
+ 
+    
+ </div>
+<div class="footer experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    <!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-footer.min.css" type="text/css">
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-footer.min.js"></script>
+
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="footer-4726ba145b" class="cmp-experiencefragment cmp-experiencefragment--footer">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-45d59280f4" class="cmp-text">
+    <ul>
+<li><button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://www.takeda.com/en-us/who-we-are/contact-us">Contact Us</button></li>
+<li><button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://www.takeda.com/privacy-notice/">Privacy Notice</button></li>
+<li><button class="rte-modal" data-component="modal" data-target="exit-modal" data-href="https://www.takeda.com/en-us/terms-of-use">Terms of Use</button></li>
+<li><a href="/sitemap">Sitemap</a></li>
+</ul>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+<div class="image aem-GridColumn aem-GridColumn--default--12">
+
+<!-- /* To implement clientlibs theme - START */ -->
+
+
+
+
+
+    
+
+
+
+<!-- /* To implement clientlibs theme - END */ -->
+
+    <div data-cmp-is="image" data-cmp-lazythreshold="0" data-cmp-src="/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/footer/master/_jcr_content/root/image.coreimg{.width}.svg/1670600620260/dakiyama-takeda-logo.svg" data-asset="/content/dam/takeda/imported/nonproduct/images/Dakiyama_takeda-logo.svg" data-title="Takeda Corporate Website" id="exit-modal" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    <button class="cmp-image__link open-in-modal  " href="https://www.takeda.com/en-us/" aria-disabled="false" data-component="modal" data-target="exit-modal" data-href="https://www.takeda.com/en-us/" data-cmp-hook-image="link" target="_self">
+        
+            
+            <img src="/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/footer/master/_jcr_content/root/image.coreimg.svg/1670600620260/dakiyama-takeda-logo.svg" class="cmp-image__image " itemprop="contentUrl" data-cmp-hook-image="image" alt="Takeda Corporate Website" style="pointer-events: none;"/>
+            
+        
+    </button>
+    
+    
+
+
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->
+
+<div id="text-805c6275be" class="cmp-text">
+    <p>LIVTENCITY<sup>®</sup> and the LIVTENCITY logo™ are trademarks or registered trademarks of Takeda Pharmaceuticals International AG. Takeda<sup>®</sup>, the Takeda logo<sup>®</sup> and the Takeda Patient Support logo™ are trademarks or registered trademarks of Takeda Pharmaceutical Company Limited. ©2023 Takeda Pharmaceuticals U.S.A., Inc.<span class="cmp-text__no-break"> All rights reserved.</span><br />
+1-877-TAKEDA-7 (1-877-825-3327).</p>
+<p>US-MAR-0477v1.0 03/23</p>
+
+</div>
+
+    
+
+
+    
+
+
+
+
+</div>
+
+    
+</div>
+
+</div></div>
+
+<div class="aem-GridColumn aem-GridColumn--default--12 ">
+     
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    
+    
+</div>
+
+</div>
+
+
+
+    
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-39b12a525c" class="cmp-experiencefragment cmp-experiencefragment--important-safety-info">
+<div class="xf-content-height">
+    
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid cmp-container__safety aem-GridColumn aem-GridColumn--default--12">
+  
+<!-- To implement clientlibs theme - START -->
+
+
+
+
+    
+
+
+
+<!-- To implement clientlibs theme - END -->  
+
+    
+    <div id="container-64c5591954" class="cmp-container">
+		<picture>
+			<source media="screen and (max-width: 767px)"/>
+			<source media="screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2)"/>
+			<source media="screen and (max-width: 9999px) and (min-width: 1024px)"/>
+			<img style="width:auto;"/>
+		</picture>
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cta button cmp-cta__safety aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+
+	<!-- To implement clientlibs theme - START -->
+	
+	
+	
+
+	
+    
+
+
+
+	<!-- To implement clientlibs theme - END -->
+
+	<div class="cmp-cta-wrapper">
+		<a id="cta-fb2e4e512c" class="cmp-cta  " href="/safety" rel="noreferrer" target="_self">
+			
+    
+
+			<span class="cmp-cta-text"><p>SEE THE <strong>SAFETY PROFILE</strong></p>
+</span>
+		</a>
+	</div>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+</div></div>
+
+    
+</div>
+
+    
+</div>
+</div>
+
+
+            
+    
+    
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-dependencies.min.js"></script>
+<script src="/etc.clientlibs/livtencity-hcp-branded/clientlibs/clientlib-site.min.js"></script>
+
+
+
+    
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.min.js"></script>
+<script src="/etc.clientlibs/klick-mcm/clientlibs/clientlib-base.min.js"></script>
+
+
+
+
+
+    
+
+    
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js"></script>
+
+
+
+    
+
+            
+
+        
+        
+        <script type="text/javascript">_satellite.pageBottom();</script>
+    </body>
+</html>
