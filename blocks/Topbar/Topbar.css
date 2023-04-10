@@ -1,0 +1,31 @@
+.topbar {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  border: 0;
+  border-radius: 0;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: none;
+  background-position: 0 0;
+  background: #f2ecff;
+  color: #3f006d;
+}
+.topbar:before {
+  content: "";
+  background: url(https://www.livtencity.com/etc.clientlibs/livtenci…tlib-site/resources/images/icons/megaphoneliv.png) no-repeat;
+  width: 24px;
+  height: 19px;
+  display: block;
+  position: absolute;
+  left: -44px;
+  background-size: contain;
+}
+
+.topbar p {
+  font-size: 14px;
+  }

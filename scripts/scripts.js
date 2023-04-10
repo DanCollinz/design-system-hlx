@@ -21,33 +21,25 @@ window.hlx.RUM_GENERATION = 'project-1'; // add your RUM generation information 
  * @param {Element} main The container element
  */
 function buildHeroBlock(main) {
+    console.log('in scripts build hero block');
   const h1 = main.querySelector('h1');
   const h2 = main.querySelector('h2');
   const h3 = main.querySelector('h3');
-  const p = main.querySelector('p');
-
-
   const picture = main.querySelector('picture');
-  // eslint-disable-next-line no-bitwise
-  //const section = document.createElement('div');
-  //section.className = 'heroCopyBox';
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
-    section.className = 'heroCopyBox';
-    //section.className.add('box');
-     //element.className = className;
-    section.append(buildBlock('hero', { elems: [picture, h1, h2, h3, p] }));
+    section.classList.add('test');
+    section.append(buildBlock('hero', { elems: [picture, h1, h2, h3 ] }));
     main.prepend(section);
   }
 }
-
 /**
  * Builds all synthetic blocks in a container element.
  * @param {Element} main The container element
  */
 function buildAutoBlocks(main) {
   try {
-    buildHeroBlock(main);
+    //buildHeroBlock(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
@@ -114,7 +106,8 @@ async function loadLazy(doc) {
 
   loadHeader(doc.querySelector('header'));
   loadFooter(doc.querySelector('footer'));
-  
+  //loadHero(doc.querySelector('hero'));
+
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   addFavIcon(`${window.hlx.codeBasePath}/styles/favicon.svg`);
   sampleRUM('lazy');

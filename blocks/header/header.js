@@ -1,4 +1,8 @@
 import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
+import { readBlockConfig } from '../../scripts/lib-franklin.js';
+
+const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
+console.log(navBox);
 
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
@@ -85,61 +89,85 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
-/**
- * decorates the header, mainly the nav
- * @param {Element} block The header block element
- */
-export default async function decorate(block) {
-  // fetch nav content
-  const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta).pathname : '/nav';
-  const resp = await fetch(`${navPath}.plain.html`);
-
+async function decorateTopbar(block, cfg) {
+  // fetch topbar content
+  const topbarPath = cfg.topbar || '/topbar';
+  const resp = await fetch(`${topbarPath}.plain.html`);
   if (resp.ok) {
     const html = await resp.text();
+    const mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', 'topbar');
+    mainDiv.innerHTML = html;
+    console.log('in header js');
+    block.append(mainDiv);
+  }
+}
+
+export default async function decorate(block) {
+
+  const cfg = readBlockConfig(block);
+  block.textContent = '';
+  await decorateTopbar(block, cfg);
+  // fetch nav content
+  const navPath = cfg.nav || '/nav';
+  const resp = await fetch(`${navPath}.plain.html`);
+  if (resp.ok) {
+  const html = await resp.text();
 
     // decorate nav DOM
-    const nav = document.createElement('nav');
-    nav.id = 'nav';
-    nav.innerHTML = html;
+  const nav = document.createElement('nav');
+  nav.innerHTML = html;
 
+
+    //console.log(nav);
     const classes = ['brand', 'sections', 'tools'];
-    classes.forEach((c, i) => {
-      const section = nav.children[i];
-      if (section) section.classList.add(`nav-${c}`);
+    classes.forEach((e, j) => {
+    const section = nav.children[j];
+    if (section) section.classList.add(`nav-${e}`);
+
     });
 
-    const navSections = nav.querySelector('.nav-sections');
+      const brandContainer = nav.children[0];
+      const navSections = [...nav.children][1];
+      //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
+      //console.log(navBox);
+
+
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
         if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
         navSection.addEventListener('click', () => {
-          if (isDesktop.matches) {
-            const expanded = navSection.getAttribute('aria-expanded') === 'true';
-            toggleAllNavSections(navSections);
-            navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-          }
+          const expanded = navSection.getAttribute('aria-expanded') === 'true';
+          collapseAllNavSections(navSections);
+          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         });
       });
     }
 
+    // active item
+    nav.querySelectorAll(':scope a').forEach((link) => {
+      const url = link.href && new URL(link.href);
+      if (url.pathname === window.location.pathname) {
+      link.classList.add('active');
+      }
+    });
+
     // hamburger for mobile
     const hamburger = document.createElement('div');
     hamburger.classList.add('nav-hamburger');
-    hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
-        <span class="nav-hamburger-icon"></span>
-      </button>`;
-    hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
+    hamburger.innerHTML = '<div class="nav-hamburger-icon"></div>';
+    hamburger.addEventListener('click', () => {
+    const expanded = nav.getAttribute('aria-expanded') === 'true';
+    document.body.style.overflowY = expanded ? '' : 'hidden';
+    nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    });
     nav.prepend(hamburger);
     nav.setAttribute('aria-expanded', 'false');
-    // prevent mobile nav behavior on window resize
-    toggleMenu(nav, navSections, isDesktop.matches);
-    isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
+    // decorateIcons(nav);
+    const navBox = document.getElementsByClassName('nav-brand');
+    const navA = nav.children[1];
+    console.log(navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg" alt="Livtencity"></a>');
 
-    decorateIcons(nav);
-    const navWrapper = document.createElement('div');
-    navWrapper.className = 'nav-wrapper';
-    navWrapper.append(nav);
-    block.append(navWrapper);
+    block.prepend(nav);
   }
 }

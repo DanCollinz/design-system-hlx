@@ -577,6 +577,17 @@ export function loadHeader(header) {
   decorateBlock(headerBlock);
   return loadBlock(headerBlock);
 }
+/**
+ * Loads a block named 'msgBox' into header
+ * @param {Element} msgBox msgBox element
+ * @returns {Promise}
+ */
+export function loadMsgBox(msgBox) {
+  const msgBlock = buildBlock('msgBlock', '');
+  msgBox.append(msgBlock);
+  decorateBlock(msgBlock);
+  return loadBlock(msgBlock);
+}
 
 /**
  * Loads a block named 'footer' into footer
