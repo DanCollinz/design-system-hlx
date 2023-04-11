@@ -54,6 +54,7 @@ function toggleAllNavSections(sections, expanded = false) {
  * Toggles the entire nav
  * @param {Element} nav The container element
  * @param {Element} navSections The nav sections within the container element
+ * @param {Element} navTop The nav sections above the container element
  * @param {*} forceExpanded Optional param to force nav expand behavior when not null
  */
 function toggleMenu(nav, navSections, forceExpanded = null) {
@@ -120,17 +121,20 @@ export default async function decorate(block) {
 
 
     //console.log(nav);
-    const classes = ['brand', 'sections', 'tools'];
+    const classes = ['brand', 'sections', 'tools', 'navTop'];
     classes.forEach((e, j) => {
     const section = nav.children[j];
     if (section) section.classList.add(`nav-${e}`);
+    console.log(j);
 
     });
 
       const brandContainer = nav.children[0];
-      const navSections = [...nav.children][1];
+      const navSections = [nav.children][1];
+      const navTools = [nav.children][2];
+      const navTop = [nav.children][3];
       //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
-      //console.log(navBox);
+
 
 
     if (navSections) {
@@ -140,6 +144,17 @@ export default async function decorate(block) {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           collapseAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+      });
+    }
+
+    if (navTop) {
+      navTop.querySelectorAll(':scope > ul > li').forEach((navTop) => {
+        if (navSection.querySelector('ul')) navTop.classList.add('nav-top');
+        navTop.addEventListener('click', () => {
+          const expanded = navTop.getAttribute('aria-expanded') === 'true';
+          collapseAllNavSections(navTop);
+          navTop.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         });
       });
     }
