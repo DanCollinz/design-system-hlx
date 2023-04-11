@@ -43,7 +43,7 @@ header nav {
   align-items: center;
   gap: 0 2em;
   margin: auto;
-  max-width: 1264px;
+  max-width: 1350px;
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
@@ -187,7 +187,7 @@ header nav .nav-brand img {
 
 /* sections */
 header nav .nav-sections {
-  width: 936px;
+  width: 1075px;
       margin: auto;
       display: flex;
       font-size: 15px;
@@ -217,18 +217,51 @@ header nav .nav-sections ul > li {
 
 header nav .nav-sections ul > li > ul {
   margin-top: 0;
-  border:4px dashed red;
 }
 
 header nav .nav-sections ul:nth-child(1){
-border:3px dotted green;
 margin-bottom: 20px;
-
-
 }
-header nav .nav-sections ul:nth-child(2){
-border:3px dotted blue;
 
+header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type{
+  font-family: var(--body-font-family);
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 5px 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--background-color);
+  background-color: var(--link-color);
+  margin: 16px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 30px;
+}
+header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
+  font-family: var(--body-font-family);
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 5px 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--background-color);
+  background-color: var(--link-color);
+  margin: 16px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 30px;
+}
+
+
+header nav .nav-sections ul:nth-child(2){
 
 }
 
