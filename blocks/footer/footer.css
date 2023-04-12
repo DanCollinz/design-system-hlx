@@ -5,15 +5,15 @@ footer {
   color:#ffffff;
 
 }
-.columns.footer  div :nth-child(2) {
-
+.columns.footer :nth-child(1)  :nth-child(1) ul {
   background-color: #333b41;
-  margin-top:30px
-  display: table;
-  min-width: 400px;
-  float: right;
+  float:right;
   border:3px dashed green;
-  display:table;
+  margin-bottom: 30px;
+}
+/* content box */
+.columns.footer :nth-child(2)  :nth-child(1) {
+
 
 }
 
@@ -26,8 +26,8 @@ footer {
     margin: auto;
 }
 .footer li {
-display: inline;
-margin: 20px;
+  display: inline;
+  margin: 20px;
 }
 
 footer .footer {
