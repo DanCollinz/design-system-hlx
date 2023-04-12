@@ -15,7 +15,7 @@
   background: #f2ecff;
   color: #3f006d;
 }
-.topbar:before {
+header .topbar div:before {
   content: "";
   background: url(https://www.livtencity.com/etc.clientlibs/livtenci…tlib-site/resources/images/icons/megaphoneliv.png) no-repeat;
   width: 24px;
@@ -24,6 +24,7 @@
   position: absolute;
   left: -44px;
   background-size: contain;
+
 }
 
 .topbar p {
