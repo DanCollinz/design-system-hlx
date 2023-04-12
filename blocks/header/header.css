@@ -28,8 +28,8 @@ header .topbar{
 
   }
 
-header .topbar picture {
-  margin: 20px 20px;
+header .topbar img{
+  margin-right:10px;
   width: 24px;
   height: 19px;
 
