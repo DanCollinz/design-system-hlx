@@ -28,10 +28,11 @@ header .topbar{
 
   }
 
-header div.topbar div  {
-  margin: 20px 20px !important;
-  !important
-  background-color: red;
+header .topbar picture {
+  margin: 20px 20px;
+  width: 24px;
+  height: 19px;
+
 }
 
 header nav {
