@@ -221,6 +221,7 @@ header nav .nav-sections ul > li > ul {
 
 header nav .nav-sections ul:nth-child(1){
 margin-bottom: 20px;
+font-size: 12px;
 }
 
 header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type{
@@ -231,6 +232,7 @@ header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type{
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
