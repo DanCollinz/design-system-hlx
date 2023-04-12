@@ -8,17 +8,17 @@ footer {
 .columns.footer :nth-child(1)  :nth-child(1) ul {
   background-color: #333b41;
   float:right;
-  border:3px dashed green;
   margin-bottom: 30px;
 }
 /* content box */
 .columns.footer :nth-child(2)  :nth-child(1) {
-
+clear:right;
 
 }
 
 .footer img{
-
+width:167px;
+height:70px;
 
 }
 .footer ul{
@@ -28,6 +28,12 @@ footer {
 .footer li {
   display: inline;
   margin: 20px;
+  color:  var(--link-color-footer);
+}
+
+.footer li a {
+
+  color:  var(--link-color-footer);
 }
 
 footer .footer {
