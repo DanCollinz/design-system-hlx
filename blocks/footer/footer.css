@@ -35,6 +35,10 @@ height:70px;
 
   color:  var(--link-color-footer);
 }
+footer .footer a{
+
+  color:#e179ff;
+}
 
 footer .footer {
   max-width: 1200px;
