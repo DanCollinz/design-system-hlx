@@ -5,6 +5,10 @@ footer {
   color:#ffffff;
 
 }
+footer .columns.footer div {
+
+  background-color: #333b41;
+}
 .columns.footer :nth-child(1)  :nth-child(1) ul {
   background-color: #333b41;
   float:right;
@@ -47,28 +51,30 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  background-color: #333b41;
+
 }
 footer .sideButton{
 
   color: #002a25;
-background-color: #669900;
-width: 35px;
-text-decoration: none;
-font-size: 16px;
-height: 260px;
-font-family: sans-serif;
-letter-spacing: 0;
-opacity: 1;
-display: flex;
-writing-mode: vertical-lr;
-writing-mode: tb-lr;
-vertical-align: middle;
-line-height: 2em;
-justify-content: center;
-position: fixed;
-top: 50%;
-right: 0;
-margin-top: -130px;
-z-index: 995;
-font-weight: bold;
+  background-color: #abb436;
+  width: 35px;
+  text-decoration: none;
+  font-size: 16px;
+  height: 260px;
+  font-family: sans-serif;
+  letter-spacing: 0;
+  opacity: 1;
+  display: flex;
+  writing-mode: vertical-lr;
+  writing-mode: tb-lr;
+  vertical-align: middle;
+  line-height: 2em;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -130px;
+  z-index: 995;
+  font-weight: bold;
 }
