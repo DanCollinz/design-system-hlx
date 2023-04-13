@@ -3,7 +3,6 @@
   flex-direction: column;
   background-color: #ffffff;
   color:#var(--text-color);
-  border: 2px dotted green;
 }
 
 .columns img {
