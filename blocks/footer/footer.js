@@ -18,6 +18,11 @@ export default async function decorate(block) {
     // decorate footer DOM
     const footer = document.createElement('div');
     footer.innerHTML = html;
+    const sideButton = document.createElement('div');
+    sideButton.classList.add('sideButton');
+    sideButton.innerHTML = 'sideButton is here';
+    console.log(sideButton);
+    block.append(sideButton);
 
     decorateIcons(footer);
     block.append(footer);
