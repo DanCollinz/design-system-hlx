@@ -55,12 +55,16 @@ main .hero h3 {
   margin-right: auto;
   color: white;
   font-size: 16px;
+  font-weight: 400;
+line-height: 24px;
 
 }
 main .hero p {
   margin-left: 20px;
   margin-right: auto;
-  font-size: 14px;
+  font-size: 12px;
+  color: #fff;
+  margin-top:10px;
 
 }
 
