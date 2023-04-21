@@ -12,6 +12,21 @@
 
   margin-top: 60px;
 }
+.columns.disclaimer  {
+  margin-top:0;
+  font-size: 12px;
+  padding: 10px;
+  position:relative;
+  bottom: 5px;
+  margin-top:5px;
+
+}
+
+.columns.disclaimer :nth-child(1){
+  background-color: #f2ecff;
+  -webkit-box-shadow: 0 4px 1pc 0 hsla(0,0%,47%,.16);
+  box-shadow: 0 4px 1pc 0 hsla(0,0%,47%,.16);
+}
 
 .columns > div > div {
   order: 1;
