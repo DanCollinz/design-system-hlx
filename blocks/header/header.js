@@ -46,7 +46,7 @@ function focusNavSection() {
  */
 function toggleAllNavSections(sections, expanded = false) {
   sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
-    section.setAttribute('aria-expanded', expanded);
+  section.setAttribute('aria-expanded', expanded);
   });
 }
 
@@ -133,14 +133,11 @@ export default async function decorate(block) {
       const navSections = [nav.children][1];
       const navTools = [nav.children][2];
       const navTop = [nav.children][3];
-      //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
-
-
 
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
         if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-        navSection.addEventListener('click', () => {
+          navSection.addEventListener('click', () => {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
           collapseAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
