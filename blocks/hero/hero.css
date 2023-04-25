@@ -59,7 +59,7 @@ text-align: center;
 font-style: normal;
 font-weight: 600;
 cursor: pointer;
-color: red;
+color: var(--background-color);
 background-color: var(--link-color);
 margin: 16px 0;
 white-space: nowrap;
@@ -67,7 +67,19 @@ overflow: hidden;
 text-overflow: ellipsis;
 border-radius: 30px;
 }
+main .hero.design-demo h1 {
+color:black;
 
+}
+main .hero.design-demo h2 {
+color:black;
+
+}
+
+main .hero.design-demo h3 {
+color:black;
+
+}
 main .hero h3 {
   max-width: 500px;
   margin-left: 20px;
