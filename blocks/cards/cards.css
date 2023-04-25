@@ -37,3 +37,11 @@
   position: relative;
   top: -13px;
 }
+.cards.demo-cards > ul > li img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  left: -5px;
+  position: relative;
+  top: -13px;
+}
