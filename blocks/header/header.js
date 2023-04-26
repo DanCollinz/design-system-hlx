@@ -133,6 +133,7 @@ export default async function decorate(block) {
       const navSections = [nav.children][1];
       const navTools = [nav.children][2];
       const navTop = [nav.children][3];
+      //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
 
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {

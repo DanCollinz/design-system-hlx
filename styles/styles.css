@@ -154,11 +154,51 @@ a.button:any-link, button {
   text-overflow: ellipsis;
   border-radius: 30px;
 }
+main .columns.gattex.block.columns-2-cols  a.button:any-link, button{
 
-a.button:hover, a.button:focus, button:hover, button:focus  {
+  margin: 0 2rem 1.5rem 0;
+  background-color: #e19228;
+  border-radius: 1.8rem;
+  vertical-align: middle;
+  padding: 0.8rem 5rem 0.8rem 2.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  transition: all 0.3s ease;
+  border: 1px solid #e19228;
+  min-width: 1rem;
+  font-weight: 500;
+  font-family: "Barlow", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+}
+
+main .columns.adynovate.block.columns-2-cols  a.button:any-link, button {
+  background-image: linear-gradient(180deg,#a2ce57,#8bad39);
+  color: #fff;
+  border-color: transparent;
+  font-weight: 400;
+  border: none;
+  border-radius: 2.4rem;
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-block;
+  a.button:hover, a.button:focus, button:hover, button:focus  {
   background-color: var(--link-hover-color);
   cursor: pointer;
+
 }
+
+
 
 button:disabled, button:disabled:hover {
   background-color: var(--overlay-background-color);
