@@ -176,6 +176,36 @@ main .columns.gattex.block.columns-2-cols  a.button:any-link, button{
   position: relative;
 }
 
+main .columns.adynovate.block.columns-2-cols h1 {
+  font-size: 3.8rem;
+      line-height: 4.4rem;
+      text-transform: uppercase;
+      padding-top: 0;
+      background-image: none;
+      margin-bottom: 0.8rem;
+      font-weight: 300;
+      color: #7f2e8e;
+
+}
+main .columns.adynovate.block.columns-2-cols h2 {
+  font-size: 3.8rem;
+      line-height: 4.4rem;
+      text-transform: uppercase;
+      padding-top: 0;
+      background-image: none;
+      margin-bottom: 0.8rem;
+      font-weight: 300;
+      color: #8bad39;
+
+}
+main .columns.adynovate.block.columns-2-cols p {
+  
+      color: #8bad39;
+
+}
+
+
+
 main .columns.adynovate.block.columns-2-cols  a.button:any-link, button {
   background-image: linear-gradient(180deg,#a2ce57,#8bad39);
   color: #fff;
