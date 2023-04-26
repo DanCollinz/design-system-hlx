@@ -21,6 +21,27 @@
   margin-top:5px;
 
 }
+.columns.gattex button {
+
+  margin: 0 2rem 1.5rem 0;
+  background-color: #e19228;
+  border-radius: 1.8rem;
+  vertical-align: middle;
+  padding: 0.8rem 5rem 0.8rem 2.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  transition: all 0.3s ease;
+  border: 1px solid #e19228;
+  min-width: 1rem;
+  font-weight: 500;
+  font-family: "Barlow", Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+}
 
 .columns.disclaimer :nth-child(1){
   background-color: #f2ecff;

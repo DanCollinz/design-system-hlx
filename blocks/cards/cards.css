@@ -45,3 +45,8 @@
   position: relative;
   top: -13px;
 }
+
+.cards.demo-cards a.button:any-link, button {
+
+  background-color: #30c2ff;
+}
