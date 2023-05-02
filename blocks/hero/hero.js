@@ -1,23 +1,6 @@
 import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
-/*async function decorateTopbar(block, cfg) {
-  // fetch topbar content
-  const heroContainer = document.querySelector('hero');
-  const topbarPath = cfg.topbar || '/topbar';
-  const resp = await fetch(`${topbarPath}.plain.html`);
-  if (resp.ok) {
-    const html = await resp.text();
-    const mainDiv = document.createElement('div');
-    mainDiv.setAttribute('class', 'topbar');
-    mainDiv.innerHTML = html;
-    console.log('in hero js');
-    console.log(block);
-    block.append(mainDiv);
-      //ocument.getElementsByTagName('hero')[0].appendChild(mainDiv);
-  }
-}*/
-
 export default async function decorate(block) {
   const cols = [...block.firstElementChild.children];
   const cfg = readBlockConfig(block);

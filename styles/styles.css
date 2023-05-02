@@ -48,7 +48,6 @@
     --heading-font-size-xxl: 60px;
     --heading-font-size-xl: 48px;
     --heading-font-size-l: 24px;
-;
     --heading-font-size-m: 30px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
@@ -178,30 +177,28 @@ main .columns.gattex.block.columns-2-cols  a.button:any-link, button{
 
 main .columns.adynovate.block.columns-2-cols h1 {
   font-size: 3.8rem;
-      line-height: 4.4rem;
-      text-transform: uppercase;
-      padding-top: 0;
-      background-image: none;
-      margin-bottom: 0.8rem;
-      font-weight: 300;
-      color: #7f2e8e;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  padding-top: 0;
+  background-image: none;
+  margin-bottom: 0.8rem;
+  font-weight: 300;
+  color: #7f2e8e;
 
 }
 main .columns.adynovate.block.columns-2-cols h2 {
   font-size: 3.8rem;
-      line-height: 4.4rem;
-      text-transform: uppercase;
-      padding-top: 0;
-      background-image: none;
-      margin-bottom: 0.8rem;
-      font-weight: 300;
-      color: #8bad39;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  padding-top: 0;
+  background-image: none;
+  margin-bottom: 0.8rem;
+  font-weight: 300;
+  color: #8bad39;
 
 }
 main .columns.adynovate.block.columns-2-cols p {
-  
-      color: #8bad39;
-
+  color: #8bad39;
 }
 
 
