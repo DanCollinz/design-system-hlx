@@ -6,8 +6,6 @@ export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.classList.add(`columns-${cols.length}-cols`, 'first');
   //await decorateTopbar(block, cfg);
-    console.log('in block decorator');
-    console.log(block);
   // setup image columns
   [...block.children].forEach((row) => {
     [...row.children].forEach((col) => {

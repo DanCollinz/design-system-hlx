@@ -78,3 +78,9 @@ footer .sideButton{
   z-index: 995;
   font-weight: bold;
 }
+
+footer .isitray{
+
+  border: 4px orange dotted;
+  
+}

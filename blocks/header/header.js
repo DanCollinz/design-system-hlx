@@ -97,7 +97,7 @@ async function decorateTopbar(block, cfg) {
     const mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', 'topbar');
     mainDiv.innerHTML = html;
-    block.append(mainDiv);
+    block.prepend(mainDiv);
   }
 }
 
@@ -172,7 +172,6 @@ export default async function decorate(block) {
     // decorateIcons(nav);
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
-
     block.prepend(nav);
   }
 }
