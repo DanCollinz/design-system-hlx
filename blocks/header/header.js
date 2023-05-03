@@ -2,8 +2,6 @@ import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
 const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
-console.log(navBox);
-
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
@@ -99,8 +97,7 @@ async function decorateTopbar(block, cfg) {
     const mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', 'topbar');
     mainDiv.innerHTML = html;
-    console.log('in header js');
-    block.append(mainDiv);
+    block.prepend(mainDiv);
   }
 }
 
@@ -119,14 +116,10 @@ export default async function decorate(block) {
   const nav = document.createElement('nav');
   nav.innerHTML = html;
 
-
-    //console.log(nav);
     const classes = ['brand', 'sections', 'tools', 'navTop'];
     classes.forEach((e, j) => {
     const section = nav.children[j];
     if (section) section.classList.add(`nav-${e}`);
-    console.log(j);
-
     });
 
       const brandContainer = nav.children[0];
@@ -179,8 +172,6 @@ export default async function decorate(block) {
     // decorateIcons(nav);
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
-    console.log(navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg" alt="Livtencity"></a>');
-
     block.prepend(nav);
   }
 }
