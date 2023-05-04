@@ -35,7 +35,6 @@ export default async function decorate(block) {
     const sideButton = document.createElement('div');
     sideButton.classList.add('sideButton');
     sideButton.innerHTML = 'SEE THE SAFETY PROFILE';
-    console.log(sideButton);
     block.append(sideButton);
 
     decorateIcons(footer);
