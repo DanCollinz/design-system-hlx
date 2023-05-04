@@ -49,6 +49,12 @@ const embedVimeo = (url) => {
     src = `https://player.vimeo.com/video/${video}?app_id=122963`;
   }
 
+  const embedJotForm = (url) => {
+    const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe id="JotFormIFrame-211254478220146" title="Takeda Institutional Schedule a Meeting" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/211254478220146?isIframeEmbed=1" frameborder="0" style="min-width: 100%; height: 1391px; border: none;" scrolling="no" data-gtm-yt-inspected-8="true">
+    </iframe> </div>`;
+ return embedHTML;
+  }
+
   const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
       <iframe src="${src}"
       style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;"
