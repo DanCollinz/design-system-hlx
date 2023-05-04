@@ -17,7 +17,7 @@ const getDefaultEmbed = (url) => `<div style="left: 0; width: 100%; height: 0; p
       scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">
     </iframe>
   </div>`;
-  const embedYoutube = (url) => {
+const embedYoutube = (url) => {
   const usp = new URLSearchParams(url.search);
   let vid = usp.get('v');
   const embed = url.pathname;
@@ -118,7 +118,6 @@ const embedSlideShare = (url) => {
 
   return resultHtml.outerHTML;
 };
-
 
 const EMBEDS_CONFIG = {
   youtube: {

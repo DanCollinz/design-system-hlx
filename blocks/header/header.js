@@ -1,6 +1,6 @@
 import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
-//const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
+// const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
@@ -42,8 +42,8 @@ function focusNavSection() {
  * @param {Boolean} expanded Whether the element should be expanded or collapsed
  */
 function toggleAllNavSections(sections, expanded = false) {
-  sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
-  section.setAttribute('aria-expanded', expanded);
+   sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
+   section.setAttribute('aria-expanded', expanded);
   });
 }
 
@@ -101,7 +101,6 @@ async function decorateTopbar(block, cfg) {
 }
 
 export default async function decorate(block) {
-
   const cfg = readBlockConfig(block);
   block.textContent = '';
   await decorateTopbar(block, cfg);
@@ -109,11 +108,10 @@ export default async function decorate(block) {
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
   if (resp.ok) {
-  const html = await resp.text();
-
+    const html = await resp.text();
     // decorate nav DOM
-  const nav = document.createElement('nav');
-  nav.innerHTML = html;
+    const nav = document.createElement('nav');
+    nav.innerHTML = html;
 
     const classes = ['brand', 'sections', 'tools', 'navTop'];
     classes.forEach((e, j) => {
