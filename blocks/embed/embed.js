@@ -119,9 +119,6 @@ const embedSlideShare = (url) => {
   return resultHtml.outerHTML;
 };
 
-const embedJotForm = (url) => {
-
-};
 
 const EMBEDS_CONFIG = {
   youtube: {

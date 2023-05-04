@@ -1,7 +1,6 @@
-import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
-const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
+//const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
@@ -170,7 +169,7 @@ export default async function decorate(block) {
     nav.prepend(hamburger);
     nav.setAttribute('aria-expanded', 'false');
     // decorateIcons(nav);
-    const navBox = document.getElementsByClassName('nav-brand');
+    //const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
     block.prepend(nav);
   }

@@ -1,6 +1,8 @@
 import { readBlockConfig, decorateIcons } from '../../scripts/lib-franklin.js';
-
-
+/**
+ * loads and decorates the isi-tray
+ * @param {Element} block The isi-tray block element
+ */
 async function decorateTray(block, cfg) {
   // fetch topbar content
   const trayPath = cfg.isitray || '/isitray';
@@ -27,7 +29,6 @@ export default async function decorate(block) {
 
   if (resp.ok) {
     const html = await resp.text();
-
     // decorate footer DOM
     const footer = document.createElement('div');
     footer.innerHTML = html;
