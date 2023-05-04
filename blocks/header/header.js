@@ -167,8 +167,9 @@ export default async function decorate(block) {
     nav.prepend(hamburger);
     nav.setAttribute('aria-expanded', 'false');
     // decorateIcons(nav);
-    //const navBox = document.getElementsByClassName('nav-brand');
-    const navA = nav.children[1];
+    const navBox = document.getElementsByClassName('nav-brand');
+  const navA = nav.children[1];
+  console.log(navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg" alt="Livtencity"></a>');
     block.prepend(nav);
   }
 }
