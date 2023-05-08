@@ -53,7 +53,7 @@ const embedVimeo = (url) => {
     const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe id="JotFormIFrame-211254478220146" title="Takeda Institutional Schedule a Meeting" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/211254478220146?isIframeEmbed=1" frameborder="0" style="min-width: 100%; height: 1391px; border: none;" scrolling="no" data-gtm-yt-inspected-8="true">
     </iframe> </div>`;
  return embedHTML;
-  }
+};
 
   const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
       <iframe src="${src}"
