@@ -117,6 +117,7 @@ export default async function decorate(block) {
     classes.forEach((e, j) => {
     const section = nav.children[j];
     if (section) section.classList.add(`nav-${e}`);
+      console.log(section);
     });
 
       const brandContainer = nav.children[0];
@@ -124,6 +125,7 @@ export default async function decorate(block) {
       const navTools = [nav.children][2];
       const navTop = [nav.children][3];
       //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
+
 
     if (navSections) {
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
@@ -169,7 +171,7 @@ export default async function decorate(block) {
     // decorateIcons(nav);
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
-    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg" alt="Livtencity"></a>';
+    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
     block.prepend(nav);
   }
 }

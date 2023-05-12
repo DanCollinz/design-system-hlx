@@ -7,24 +7,24 @@ header .nav-wrapper {
 }
 
 header .topbar{
-    position: relative;
-    z-index: 2;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-weight: inherit;
-    border: 0;
-    border-radius: 0;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    background-repeat: none;
-    background-position: 0 0;
-    border-top:2px solid grey;
-    border-bottom:2px solid grey;
-    background: #f2ecff;
-    color: #3f006d;
-    margin-top:20px;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: inherit;
+  border: 0;
+  border-radius: 0;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: none;
+  background-position: 0 0;
+  border-top:2px solid grey;
+  border-bottom:2px solid grey;
+  background: #f2ecff;
+  color: #3f006d;
+  margin-top:20px;
 
   }
 
@@ -71,7 +71,7 @@ header nav[aria-expanded="true"] {
 @media (min-width: 900px) {
   header nav {
     display: flex;
-    justify-content: space-between;
+
   }
 
   header nav[aria-expanded="true"] {
@@ -83,6 +83,7 @@ header nav[aria-expanded="true"] {
 header nav p {
   margin: 0;
   line-height: 1;
+  width: 150px;
 }
 
 header nav a:any-link {
@@ -173,31 +174,38 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 /* brand */
 header .nav-brand {
   grid-area: brand;
-  flex-basis: 300px;
+  flex-basis: 30px;
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
-    background: url(https://www.livtencity.com/content/experience-fragments/takeda/livtencity-hcp-branded/en_us/header/master/_jcr_content/root/navigationcontainer/primaryLogo/image.coreimg.svg/1670601417478/livtencity-logo-2x.svg
+    background: url(    display: block;
+    height: 100%;
+    width: 105px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 ) no-repeat;
 
 }
 
 header nav .nav-brand img {
-
-  height: auto;
+  display: block;
+  height: 100%;
+  width: 105px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* sections */
 header nav .nav-sections {
   width: 1075px;
-      margin: auto;
-      display: flex;
-      font-size: 15px;
-      font-weight: 400;
-      justify-content: space-between;
-      align-items: center;
-      height: 30px;
-      margin-top:0px;
+  argin: auto;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin-top:0px;
 }
 
 header nav[aria-expanded="true"] .nav-sections {
@@ -222,11 +230,11 @@ header nav .nav-sections ul > li > ul {
 }
 
 header nav .nav-sections ul:nth-child(1){
-margin-bottom: 20px;
-font-size: 12px;
+  margin-bottom: 20px;
+  font-size: 12px;
 }
-
-header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type{
+/* next two blocks are to find forth and fifth lis and make them buttons */
+/*header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
   font-family: var(--body-font-family);
   box-sizing: border-box;
   text-decoration: none;
@@ -243,9 +251,9 @@ header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 30px;*/
 }
-header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
+/*header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
   font-family: var(--body-font-family);
   box-sizing: border-box;
   text-decoration: none;
@@ -262,7 +270,7 @@ header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 30px;
-}
+}*/
 
 
 header nav .nav-sections ul:nth-child(2){
