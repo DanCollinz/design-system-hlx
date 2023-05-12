@@ -4,7 +4,7 @@ import { readBlockConfig, decorateIcons } from '../../scripts/lib-franklin.js';
  * @param {Element} block The isi-tray block element
  */
 async function decorateTray(block, cfg) {
-  // fetch topbar content
+  // fetch isi tray content
   const trayPath = cfg.isitray || '/isitray';
   const resp = await fetch(`${trayPath}.plain.html`);
   if (resp.ok) {
@@ -12,7 +12,8 @@ async function decorateTray(block, cfg) {
     const mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', 'isitray');
     mainDiv.innerHTML = html;
-    block.append(mainDiv);
+    //block.append(mainDiv);
+
   }
 }
 /**
