@@ -178,11 +178,11 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
-    background: url(    display: block;
-    height: 100%;
-    width: 105px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  background: url(    display: block;
+  height: 100%;
+  width: 105px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 ) no-repeat;
 
 }
@@ -198,8 +198,8 @@ header nav .nav-brand img {
 /* sections */
 header nav .nav-sections {
   width: 1075px;
-  argin: auto;
-  display: flex;
+  margin: auto;
+  display: none;
   font-size: 15px;
   font-weight: 400;
   justify-content: space-between;
@@ -233,8 +233,8 @@ header nav .nav-sections ul:nth-child(1){
   margin-bottom: 20px;
   font-size: 12px;
 }
-/* next two blocks are to find forth and fifth lis and make them buttons */
-/*header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
+/*next two blocks are to find forth and fifth lis and make them buttons*/
+header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
   font-family: var(--body-font-family);
   box-sizing: border-box;
   text-decoration: none;
@@ -251,9 +251,9 @@ header nav .nav-sections ul:nth-child(1){
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;*/
+  border-radius: 30px;
 }
-/*header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
+header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
   font-family: var(--body-font-family);
   box-sizing: border-box;
   text-decoration: none;
@@ -270,7 +270,7 @@ header nav .nav-sections ul:nth-child(1){
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 30px;
-}*/
+}
 
 
 header nav .nav-sections ul:nth-child(2){
@@ -287,6 +287,12 @@ header nav .nav-sections ul > li > ul > li {
     visibility: visible;
     white-space: nowrap;
   }
+
+
+  header nav .nav-sections {
+    display: unset;
+}
+
 
   header nav[aria-expanded="true"] .nav-sections {
     align-self: unset;

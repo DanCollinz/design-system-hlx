@@ -1,6 +1,5 @@
 import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
-// const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
 // media query match that indicates mobile/tablet width
 const isDesktop = window.matchMedia('(min-width: 900px)');
 
@@ -29,6 +28,7 @@ function openOnKeydown(e) {
     // eslint-disable-next-line no-use-before-define
     toggleAllNavSections(focused.closest('.nav-sections'));
     focused.setAttribute('aria-expanded', dropExpanded ? 'false' : 'true');
+
   }
 }
 
@@ -44,6 +44,7 @@ function focusNavSection() {
 function toggleAllNavSections(sections, expanded = false) {
    sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
    section.setAttribute('aria-expanded', expanded);
+   console.log(sections);
   });
 }
 
@@ -51,7 +52,6 @@ function toggleAllNavSections(sections, expanded = false) {
  * Toggles the entire nav
  * @param {Element} nav The container element
  * @param {Element} navSections The nav sections within the container element
- * @param {Element} navTop The nav sections above the container element
  * @param {*} forceExpanded Optional param to force nav expand behavior when not null
  */
 function toggleMenu(nav, navSections, forceExpanded = null) {
@@ -87,64 +87,44 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
-async function decorateTopbar(block, cfg) {
-  // fetch topbar content
-  const topbarPath = cfg.topbar || '/topbar';
-  const resp = await fetch(`${topbarPath}.plain.html`);
-  if (resp.ok) {
-    const html = await resp.text();
-    const mainDiv = document.createElement('div');
-    mainDiv.setAttribute('class', 'topbar');
-    mainDiv.innerHTML = html;
-    block.prepend(mainDiv);
-  }
-}
+
 
 export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.textContent = '';
-  await decorateTopbar(block, cfg);
+  //await decorateTopbar(block, cfg);
   // fetch nav content
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
+
   if (resp.ok) {
     const html = await resp.text();
     // decorate nav DOM
     const nav = document.createElement('nav');
     nav.innerHTML = html;
 
-    const classes = ['brand', 'sections', 'tools', 'navTop'];
+    const classes = ['brand', 'sections', 'tools'];
     classes.forEach((e, j) => {
     const section = nav.children[j];
     if (section) section.classList.add(`nav-${e}`);
       console.log(section);
     });
 
-      const brandContainer = nav.children[0];
-      const navSections = [nav.children][1];
-      const navTools = [nav.children][2];
-      const navTop = [nav.children][3];
-      //const navBox = document.getElementsByClassName('nav-brand').innerHTML ;
-
+      //const brandContainer = nav.children[0];
+      //const navSections = [nav.children][1];
+      //const navTools = [nav.children][2];
+      const navSections = nav.querySelector('.nav-sections');
 
     if (navSections) {
+      console.log('if nav sections');
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
         if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+
+          console.log('navdrop class');
           navSection.addEventListener('click', () => {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          collapseAllNavSections(navSections);
+          //collapseAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        });
-      });
-    }
-
-    if (navTop) {
-      navTop.querySelectorAll(':scope > ul > li').forEach((navTop) => {
-        if (navSection.querySelector('ul')) navTop.classList.add('nav-top');
-        navTop.addEventListener('click', () => {
-          const expanded = navTop.getAttribute('aria-expanded') === 'true';
-          collapseAllNavSections(navTop);
-          navTop.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         });
       });
     }
@@ -172,6 +152,6 @@ export default async function decorate(block) {
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
     navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
-    block.prepend(nav);
+    block.append(nav);
   }
 }
