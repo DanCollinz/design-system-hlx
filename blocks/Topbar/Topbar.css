@@ -1,4 +1,4 @@
-/*.topbar {
+.topbar {
   position: relative;
   z-index: 2;
   margin: 0;
@@ -29,4 +29,4 @@ header .topbar div:before {
 
 .topbar p {
   font-size: 14px;
-  }*/
+  }
