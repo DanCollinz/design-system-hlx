@@ -8,6 +8,8 @@ header .nav-wrapper {
 
 header .topbar{
   position: relative;
+  display:flex;
+  justify-content:space-between;
   z-index: 2;
   margin: 0;
   padding: 0;
@@ -22,11 +24,29 @@ header .topbar{
   background-position: 0 0;
   border-top:2px solid grey;
   border-bottom:2px solid grey;
-  background: #f2ecff;
-  color: #3f006d;
-  margin-top:20px;
+  background: #444444;
+  color: #fff;
+
 
   }
+  header .topbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: unset;
+  width: unset;
+  font-size: 14px;
+  list-style: none;
+  padding-left: 0;
+}
+header .topbar li {
+margin: 0;
+font-size: 12px;
+margin-left:20px;
+margin-left:20px;
+list-style: none;
+padding-left: 0;
+}
 
 header .topbar img{
   margin-right:10px;
@@ -74,9 +94,9 @@ header nav[aria-expanded="true"] {
 
   }
 
-  header nav[aria-expanded="true"] {
-    min-height: 0;
-    overflow: visible;
+header nav[aria-expanded="true"] {
+  min-height: 0;
+  overflow: visible;
   }
 }
 
@@ -199,13 +219,14 @@ header nav .nav-brand img {
 header nav .nav-sections {
   width: 1075px;
   margin: auto;
-  display: none;
+  display: flex;
+  /*display: none;*/
   font-size: 15px;
   font-weight: 400;
   justify-content: space-between;
   align-items: center;
   height: 30px;
-  margin-top:0px;
+  margin-top:20px;
 }
 
 header nav[aria-expanded="true"] .nav-sections {
@@ -253,7 +274,7 @@ header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
   text-overflow: ellipsis;
   border-radius: 30px;
 }
-header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
+/*header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
   font-family: var(--body-font-family);
   box-sizing: border-box;
   text-decoration: none;
@@ -270,7 +291,7 @@ header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 30px;
-}
+}*/
 
 
 header nav .nav-sections ul:nth-child(2){
@@ -326,6 +347,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
+    flex-direction: row;
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
