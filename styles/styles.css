@@ -18,7 +18,7 @@
 
    /* colors */
    --text-color: #4f535f;
-   --link-color: #7c45ff;
+   --link-color: #ffffff;
    --link-hover-color: #4b9cd6;
    --background-color: #ffffff;
    --overlay-background-color: #eeeeee;
@@ -146,7 +146,7 @@ a.button:any-link, button {
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color:#444444;
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
