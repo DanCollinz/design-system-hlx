@@ -87,23 +87,12 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
-async function decorateTopbar(block, cfg) {
-  // fetch topbar content
-  const topbarPath = cfg.topbar || '/topbar';
-  const resp = await fetch(`${topbarPath}.plain.html`);
-  if (resp.ok) {
-    const html = await resp.text();
-    const mainDiv = document.createElement('div');
-    mainDiv.setAttribute('class', 'topbar');
-    mainDiv.innerHTML = html;
-    block.prepend(mainDiv);
-  }
-}
+
 
 export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.textContent = '';
-  await decorateTopbar(block, cfg);
+  //await decorateTopbar(block, cfg);
   // fetch nav content
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
@@ -121,16 +110,20 @@ export default async function decorate(block) {
       console.log(section);
     });
 
-      const brandContainer = nav.children[0];
-      const navSections = [nav.children][1];
-      const navTools = [nav.children][2];
+      //const brandContainer = nav.children[0];
+      //const navSections = [nav.children][1];
+      //const navTools = [nav.children][2];
+      const navSections = nav.querySelector('.nav-sections');
 
     if (navSections) {
+      console.log('if nav sections');
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
         if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+
+          console.log('navdrop class');
           navSection.addEventListener('click', () => {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          collapseAllNavSections(navSections);
+          //collapseAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         });
       });
