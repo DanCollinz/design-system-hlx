@@ -86,6 +86,8 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
     window.removeEventListener('keydown', closeOnEscape);
   }
 }
+
+
 /* add and decorate the top bar */
 async function decorateTopbar(block, cfg) {
   // fetch topbar content
