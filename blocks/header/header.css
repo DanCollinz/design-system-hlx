@@ -5,7 +5,7 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
-
+/* trying to force a merge */
 header .topbar {
   position: relative;
   display:flex;
