@@ -1,405 +1,168 @@
-/* header and nav layout */
-header .nav-wrapper {
-  background-color: var(red);
-  width: 100%;
-  z-index: 2;
-  position: fixed;
-}
+import { readBlockConfig } from '../../scripts/lib-franklin.js';
 
-header .topbar {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  font-weight: inherit;
-  border: 0;
-  border-radius: 0;
-  vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background-repeat: none;
-  background-position: 0 0;
-  border-top:2px solid grey;
-  border-bottom:2px solid grey;
+// media query match that indicates mobile/tablet width
+const isDesktop = window.matchMedia('(min-width: 900px)');
 
-  background: #444444;
-  color: #fff;
-  margin-top:20px;
-
-  }
-  header .topbar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: unset;
-    width: unset;
-    font-size: 14px;
-    list-style: none;
-    padding-left: 0;
-}
-header .topbar li {
-  margin: 0;
-  font-size: 12px;
-  margin-left:20px;
-  margin-left:20px;
-  list-style: none;
-  padding-left: 0;
-}
-=======
-  background: #f2ecff;
-  color: #3f006d;
-  margin-top:20px;
-  }
-
-header .topbar img{
-  margin-right:10px;
-  width: 24px;
-  height: 19px;
-
-}
-header .topbar a:any-link {
-
-  color:#fff;
-    text-decoration: none;
-}
-
-header nav {
-  box-sizing: border-box;
-  display: grid;
-  grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
-  align-items: center;
-  gap: 0 2em;
-  margin: auto;
-  max-width: 1350px;
-  height: var(--nav-height);
-  padding: 0 1rem;
-  font-family: var(--body-font-family);
-  margin-top:20px;
-  margin-bottom:15px;
-}
-
-
-header nav[aria-expanded="true"] {
-  grid-template:
-    'hamburger brand' var(--nav-height)
-    'sections sections' 1fr
-    'tools tools' var(--nav-height) / auto 1fr;
-  overflow-y: auto;
-  min-height: 100vh;
-}
-
-@media (min-width: 600px) {
-  header nav {
-    padding: 0 2rem;
+function closeOnEscape(e) {
+  if (e.code === 'Escape') {
+    const nav = document.getElementById('nav');
+    const navSections = nav.querySelector('.nav-sections');
+    const navSectionExpanded = navSections.querySelector('[aria-expanded="true"]');
+    if (navSectionExpanded && isDesktop.matches) {
+      // eslint-disable-next-line no-use-before-define
+      toggleAllNavSections(navSections);
+      navSectionExpanded.focus();
+    } else if (!isDesktop.matches) {
+      // eslint-disable-next-line no-use-before-define
+      toggleMenu(nav, navSections);
+      nav.querySelector('button').focus();
+    }
   }
 }
 
-@media (min-width: 900px) {
-  header nav {
-    display: flex;
+function openOnKeydown(e) {
+  const focused = document.activeElement;
+  const isNavDrop = focused.className === 'nav-drop';
+  if (isNavDrop && (e.code === 'Enter' || e.code === 'Space')) {
+    const dropExpanded = focused.getAttribute('aria-expanded') === 'true';
+    // eslint-disable-next-line no-use-before-define
+    toggleAllNavSections(focused.closest('.nav-sections'));
+    focused.setAttribute('aria-expanded', dropExpanded ? 'false' : 'true');
 
   }
+}
 
-  header nav[aria-expanded="true"] {
-    min-height: 0;
-    overflow: visible;
+function focusNavSection() {
+  document.activeElement.addEventListener('keydown', openOnKeydown);
+}
+
+/**
+ * Toggles all nav sections
+ * @param {Element} sections The container element
+ * @param {Boolean} expanded Whether the element should be expanded or collapsed
+ */
+function toggleAllNavSections(sections, expanded = false) {
+   sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
+   section.setAttribute('aria-expanded', expanded);
+   console.log(sections);
+  });
+}
+
+/**
+ * Toggles the entire nav
+ * @param {Element} nav The container element
+ * @param {Element} navSections The nav sections within the container element
+ * @param {*} forceExpanded Optional param to force nav expand behavior when not null
+ */
+function toggleMenu(nav, navSections, forceExpanded = null) {
+  const expanded = forceExpanded !== null ? !forceExpanded : nav.getAttribute('aria-expanded') === 'true';
+  const button = nav.querySelector('.nav-hamburger button');
+  document.body.style.overflowY = (expanded || isDesktop.matches) ? '' : 'hidden';
+  nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  toggleAllNavSections(navSections, expanded || isDesktop.matches ? 'false' : 'true');
+  button.setAttribute('aria-label', expanded ? 'Open navigation' : 'Close navigation');
+  // enable nav dropdown keyboard accessibility
+  const navDrops = navSections.querySelectorAll('.nav-drop');
+  if (isDesktop.matches) {
+    navDrops.forEach((drop) => {
+      if (!drop.hasAttribute('tabindex')) {
+        drop.setAttribute('role', 'button');
+        drop.setAttribute('tabindex', 0);
+        drop.addEventListener('focus', focusNavSection);
+      }
+    });
+  } else {
+    navDrops.forEach((drop) => {
+      drop.removeAttribute('role');
+      drop.removeAttribute('tabindex');
+      drop.removeEventListener('focus', focusNavSection);
+    });
   }
-}
-
-header nav p {
-  margin: 0;
-  line-height: 1;
-  width: 150px;
-}
-
-header nav a:any-link {
-  color: currentcolor;
-}
-
-/* hamburger */
-header nav .nav-hamburger {
-  grid-area: hamburger;
-  height: 22px;
-  display: flex;
-  align-items: center;
-}
-
-header nav .nav-hamburger button {
-  height: 22px;
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
-  overflow: initial;
-  text-overflow: initial;
-  white-space: initial;
-}
-
-header nav .nav-hamburger-icon,
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  width: 20px;
-}
-
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  content: '';
-  position: absolute;
-  background: currentcolor;
-}
-
-header nav[aria-expanded="false"] .nav-hamburger-icon,
-header nav[aria-expanded="false"] .nav-hamburger-icon::before,
-header nav[aria-expanded="false"] .nav-hamburger-icon::after {
-  height: 2px;
-  border-radius: 2px;
-  background: currentcolor;
-}
-
-header nav[aria-expanded="false"] .nav-hamburger-icon::before {
-  top: -6px;
-}
-
-header nav[aria-expanded="false"] .nav-hamburger-icon::after {
-  top: 6px;
-}
-
-header nav[aria-expanded="true"] .nav-hamburger-icon {
-  height: 22px;
-}
-
-header nav[aria-expanded="true"] .nav-hamburger-icon::before,
-header nav[aria-expanded="true"] .nav-hamburger-icon::after {
-  top: 3px;
-  left: 1px;
-  transform: rotate(45deg);
-  transform-origin: 2px 1px;
-  width: 24px;
-  height: 2px;
-  border-radius: 2px;
-}
-
-header nav[aria-expanded="true"] .nav-hamburger-icon::after {
-  top: unset;
-  bottom: 3px;
-  transform: rotate(-45deg);
-}
-
-@media (min-width: 900px) {
-  header nav .nav-hamburger {
-    display: none;
-    visibility: hidden;
+  // enable menu collapse on escape keypress
+  if (!expanded || isDesktop.matches) {
+    // collapse menu on escape press
+    window.addEventListener('keydown', closeOnEscape);
+  } else {
+    window.removeEventListener('keydown', closeOnEscape);
   }
 }
 
-/* brand */
-header .nav-brand {
-  grid-area: brand;
-  flex-basis: 30px;
-  font-size: var(--heading-font-size-s);
-  font-weight: 700;
-  line-height: 1;
-  background: url(    display: block;
-  height: 100%;
-  width: 105px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-) no-repeat;
-
-}
-
-header nav .nav-brand img {
-  display: block;
-  height: 100%;
-  width: 105px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-/* sections */
-header nav .nav-sections {
-  width: 1075px;
-  margin: auto;
-  display: flex;
-  font-size: 15px;
-  font-weight: 400;
-  justify-content: space-between;
-  align-items: center;
-  height: 30px;
-  margin-top:0px;
-}
-
-header nav[aria-expanded="true"] .nav-sections {
-  display: block;
-  visibility: visible;
-  align-self: start;
-}
-
-header nav .nav-sections ul  {
-  list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-  font-weight: 500;
-}
-
-header nav .nav-sections ul > li {
-  font-weight: 700;
-}
-
-header nav .nav-sections ul > li > ul {
-  margin-top: 0;
-}
-
-header nav .nav-sections ul:nth-child(1){
-  margin-bottom: 20px;
-  font-size: 12px;
-}
-/*next two blocks are to find forth and fifth lis and make them buttons*/
-header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
-  font-family: var(--body-font-family);
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
-  text-align: center;
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  border-radius: 30px;
-}
-header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
-  font-family: var(--body-font-family);
-  box-sizing: border-box;
-  text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
-  text-align: center;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
-  margin: 16px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  border-radius: 30px;
-}
-
-
-header nav .nav-sections ul:nth-child(2){
-
-}
-
-header nav .nav-sections ul > li > ul > li {
-  font-weight: 500;
-}
-
-@media (min-width: 900px) {
-  header nav .nav-sections {
-    display: block;
-    visibility: visible;
-    white-space: nowrap;
-  }
-
-/* double not sure what this is for, maybe delete*/
-  header nav .nav-sections {
-    display: unset;
-}
-
-
-  header nav[aria-expanded="true"] .nav-sections {
-    align-self: unset;
-  }
-
-  header nav .nav-sections .nav-drop {
-    position: relative;
-    padding-right: 16px;
-    cursor: pointer;
-  }
-
-  header nav .nav-sections .nav-drop::after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    top: .5em;
-    right: 2px;
-    transform: rotate(135deg);
-    width: 6px;
-    height: 6px;
-    border: 2px solid currentcolor;
-    border-radius: 0 1px 0 0;
-    border-width: 2px 2px 0 0;
-  }
-
-  header nav .nav-sections .nav-drop[aria-expanded="true"]::after {
-    top: unset;
-    bottom: .5em;
-    transform: rotate(315deg);
-  }
-
-  header nav .nav-sections ul {
-    display: flex;
-    gap: 2em;
-    margin: 0;
-    font-size: var(--body-font-size-xs);
-  }
-
-  header nav .nav-sections > ul > li {
-    flex: 0 1 auto;
-    position: relative;
-    font-weight: 500;
-  }
-
-  header nav .nav-sections > ul > li > ul {
-    display: none;
-    position: relative;
-  }
-
-  header nav .nav-sections > ul > li[aria-expanded="true"] > ul {
-    display: block;
-    position: absolute;
-    left: -1em;
-    width: 200px;
-    margin-top: 12px;
-    padding: 1em;
-    background-color: var(--highlight-background-color);
-    white-space: initial;
-  }
-
-  header nav .nav-sections > ul > li > ul::before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 8px;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--highlight-background-color);
-  }
-
-  header nav .nav-sections > ul > li > ul > li {
-    padding: 8px 0;
+async function decorateTopbar(block, cfg) {
+  // fetch topbar content
+  const topbarPath = cfg.topbar || '/topbar';
+  const resp = await fetch(`${topbarPath}.plain.html`);
+  if (resp.ok) {
+    const html = await resp.text();
+    const mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', 'topbar');
+    mainDiv.innerHTML = html;
+    block.prepend(mainDiv);
   }
 }
 
-/* tools */
-header nav .nav-tools {
-  grid-area: tools;
+export default async function decorate(block) {
+  const cfg = readBlockConfig(block);
+  block.textContent = '';
+  await decorateTopbar(block, cfg);
+  // fetch nav content
+  const navPath = cfg.nav || '/nav';
+  const resp = await fetch(`${navPath}.plain.html`);
+
+  if (resp.ok) {
+    const html = await resp.text();
+    // decorate nav DOM
+    const nav = document.createElement('nav');
+    nav.innerHTML = html;
+
+    const classes = ['brand', 'sections', 'tools'];
+    classes.forEach((e, j) => {
+    const section = nav.children[j];
+    if (section) section.classList.add(`nav-${e}`);
+      console.log(section);
+    });
+
+      //const brandContainer = nav.children[0];
+      //const navSections = [nav.children][1];
+      //const navTools = [nav.children][2];
+      const navSections = nav.querySelector('.nav-sections');
+
+    if (navSections) {
+      console.log('if nav sections');
+      navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
+        if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
+
+          console.log('navdrop class');
+          navSection.addEventListener('click', () => {
+          const expanded = navSection.getAttribute('aria-expanded') === 'true';
+          //collapseAllNavSections(navSections);
+          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        });
+      });
+    }
+
+    // active item
+    nav.querySelectorAll(':scope a').forEach((link) => {
+      const url = link.href && new URL(link.href);
+      if (url.pathname === window.location.pathname) {
+      link.classList.add('active');
+      }
+    });
+
+    // hamburger for mobile
+    const hamburger = document.createElement('div');
+    hamburger.classList.add('nav-hamburger');
+    hamburger.innerHTML = '<div class="nav-hamburger-icon"></div>';
+    hamburger.addEventListener('click', () => {
+    const expanded = nav.getAttribute('aria-expanded') === 'true';
+    document.body.style.overflowY = expanded ? '' : 'hidden';
+    nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    });
+    nav.prepend(hamburger);
+    nav.setAttribute('aria-expanded', 'false');
+    // decorateIcons(nav);
+    const navBox = document.getElementsByClassName('nav-brand');
+    const navA = nav.children[1];
+    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
+    block.append(nav);
+  }
 }
