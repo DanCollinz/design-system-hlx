@@ -87,6 +87,9 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
+
+/* add and decorate the top bar */
+
 async function decorateTopbar(block, cfg) {
   // fetch topbar content
   const topbarPath = cfg.topbar || '/topbar';
@@ -104,6 +107,7 @@ export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.textContent = '';
   await decorateTopbar(block, cfg);
+
   // fetch nav content
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
@@ -127,7 +131,7 @@ export default async function decorate(block) {
       const navSections = nav.querySelector('.nav-sections');
 
     if (navSections) {
-      console.log('if nav sections');
+      console.log('in nav sections');
       navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
         if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
 
