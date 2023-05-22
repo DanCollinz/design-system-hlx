@@ -1,4 +1,3 @@
-
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(red);
@@ -6,7 +5,7 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
-/* trying to force a merge */
+
 header .topbar {
   position: relative;
   display:flex;
@@ -194,29 +193,8 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
   header nav .nav-hamburger {
     display: none;
     visibility: hidden;
-=======
-import { readBlockConfig } from '../../scripts/lib-franklin.js';
-
-// media query match that indicates mobile/tablet width
-const isDesktop = window.matchMedia('(min-width: 900px)');
-
-function closeOnEscape(e) {
-  if (e.code === 'Escape') {
-    const nav = document.getElementById('nav');
-    const navSections = nav.querySelector('.nav-sections');
-    const navSectionExpanded = navSections.querySelector('[aria-expanded="true"]');
-    if (navSectionExpanded && isDesktop.matches) {
-      // eslint-disable-next-line no-use-before-define
-      toggleAllNavSections(navSections);
-      navSectionExpanded.focus();
-    } else if (!isDesktop.matches) {
-      // eslint-disable-next-line no-use-before-define
-      toggleMenu(nav, navSections);
-      nav.querySelector('button').focus();
-    }
   }
 }
-
 
 /* brand */
 header .nav-brand {
@@ -320,55 +298,29 @@ header nav .nav-sections :nth-child(1) :nth-child(5)  a:last-of-type{
 }
 
 
+header nav .nav-sections ul:nth-child(2){
 
+}
+
+header nav .nav-sections ul > li > ul > li {
+  font-weight: 500;
+}
+
+@media (min-width: 900px) {
+  header nav .nav-sections {
+    display: block;
+    visibility: visible;
+    white-space: nowrap;
   }
+
+/* double not sure what this is for, maybe delete*/
+  header nav .nav-sections {
+    display: unset;
 }
 
-function focusNavSection() {
-  document.activeElement.addEventListener('keydown', openOnKeydown);
-}
 
-/**
- * Toggles all nav sections
- * @param {Element} sections The container element
- * @param {Boolean} expanded Whether the element should be expanded or collapsed
- */
-function toggleAllNavSections(sections, expanded = false) {
-   sections.querySelectorAll('.nav-sections > ul > li').forEach((section) => {
-   section.setAttribute('aria-expanded', expanded);
-   console.log(sections);
-  });
-}
-
-/**
- * Toggles the entire nav
- * @param {Element} nav The container element
- * @param {Element} navSections The nav sections within the container element
- * @param {*} forceExpanded Optional param to force nav expand behavior when not null
- */
-function toggleMenu(nav, navSections, forceExpanded = null) {
-  const expanded = forceExpanded !== null ? !forceExpanded : nav.getAttribute('aria-expanded') === 'true';
-  const button = nav.querySelector('.nav-hamburger button');
-  document.body.style.overflowY = (expanded || isDesktop.matches) ? '' : 'hidden';
-  nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-  toggleAllNavSections(navSections, expanded || isDesktop.matches ? 'false' : 'true');
-  button.setAttribute('aria-label', expanded ? 'Open navigation' : 'Close navigation');
-  // enable nav dropdown keyboard accessibility
-  const navDrops = navSections.querySelectorAll('.nav-drop');
-  if (isDesktop.matches) {
-    navDrops.forEach((drop) => {
-      if (!drop.hasAttribute('tabindex')) {
-        drop.setAttribute('role', 'button');
-        drop.setAttribute('tabindex', 0);
-        drop.addEventListener('focus', focusNavSection);
-      }
-    });
-  } else {
-    navDrops.forEach((drop) => {
-      drop.removeAttribute('role');
-      drop.removeAttribute('tabindex');
-      drop.removeEventListener('focus', focusNavSection);
-    });
+  header nav[aria-expanded="true"] .nav-sections {
+    align-self: unset;
   }
 
   header nav .nav-sections .nav-drop {
@@ -414,87 +366,37 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   header nav .nav-sections > ul > li > ul {
     display: none;
     position: relative;
+  }
 
+  header nav .nav-sections > ul > li[aria-expanded="true"] > ul {
+    display: block;
+    position: absolute;
+    left: -1em;
+    width: 200px;
+    margin-top: 12px;
+    padding: 1em;
+    background-color: var(--highlight-background-color);
+    white-space: initial;
+  }
+
+  header nav .nav-sections > ul > li > ul::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid var(--highlight-background-color);
+  }
+
+  header nav .nav-sections > ul > li > ul > li {
+    padding: 8px 0;
   }
 }
 
-async function decorateTopbar(block, cfg) {
-  // fetch topbar content
-  const topbarPath = cfg.topbar || '/topbar';
-  const resp = await fetch(`${topbarPath}.plain.html`);
-  if (resp.ok) {
-    const html = await resp.text();
-    const mainDiv = document.createElement('div');
-    mainDiv.setAttribute('class', 'topbar');
-    mainDiv.innerHTML = html;
-    block.prepend(mainDiv);
-  }
-}
-
-export default async function decorate(block) {
-  const cfg = readBlockConfig(block);
-  block.textContent = '';
-  await decorateTopbar(block, cfg);
-  // fetch nav content
-  const navPath = cfg.nav || '/nav';
-  const resp = await fetch(`${navPath}.plain.html`);
-
-  if (resp.ok) {
-    const html = await resp.text();
-    // decorate nav DOM
-    const nav = document.createElement('nav');
-    nav.innerHTML = html;
-
-    const classes = ['brand', 'sections', 'tools'];
-    classes.forEach((e, j) => {
-    const section = nav.children[j];
-    if (section) section.classList.add(`nav-${e}`);
-      console.log(section);
-    });
-
-      //const brandContainer = nav.children[0];
-      //const navSections = [nav.children][1];
-      //const navTools = [nav.children][2];
-      const navSections = nav.querySelector('.nav-sections');
-
-    if (navSections) {
-      console.log('if nav sections');
-      navSections.querySelectorAll(':scope > ul > li').forEach((navSection) => {
-        if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
-
-          console.log('navdrop class');
-          navSection.addEventListener('click', () => {
-          const expanded = navSection.getAttribute('aria-expanded') === 'true';
-          //collapseAllNavSections(navSections);
-          navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        });
-      });
-    }
-
-    // active item
-    nav.querySelectorAll(':scope a').forEach((link) => {
-      const url = link.href && new URL(link.href);
-      if (url.pathname === window.location.pathname) {
-      link.classList.add('active');
-      }
-    });
-
-    // hamburger for mobile
-    const hamburger = document.createElement('div');
-    hamburger.classList.add('nav-hamburger');
-    hamburger.innerHTML = '<div class="nav-hamburger-icon"></div>';
-    hamburger.addEventListener('click', () => {
-    const expanded = nav.getAttribute('aria-expanded') === 'true';
-    document.body.style.overflowY = expanded ? '' : 'hidden';
-    nav.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-    });
-    nav.prepend(hamburger);
-    nav.setAttribute('aria-expanded', 'false');
-    // decorateIcons(nav);
-    const navBox = document.getElementsByClassName('nav-brand');
-    const navA = nav.children[1];
-    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
-    block.append(nav);
-
-  }
+/* tools */
+header nav .nav-tools {
+  grid-area: tools;
 }
