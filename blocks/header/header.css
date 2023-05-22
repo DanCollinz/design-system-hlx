@@ -8,8 +8,6 @@ header .nav-wrapper {
 
 header .topbar {
   position: relative;
-  display:flex;
-  justify-content:space-between;
   z-index: 2;
   margin: 0;
   padding: 0;
@@ -24,6 +22,7 @@ header .topbar {
   background-position: 0 0;
   border-top:2px solid grey;
   border-bottom:2px solid grey;
+
   background: #444444;
   color: #fff;
   margin-top:20px;
@@ -47,6 +46,11 @@ header .topbar li {
   list-style: none;
   padding-left: 0;
 }
+=======
+  background: #f2ecff;
+  color: #3f006d;
+  margin-top:20px;
+  }
 
 header .topbar img{
   margin-right:10px;
@@ -230,7 +234,7 @@ header nav .nav-sections {
   justify-content: space-between;
   align-items: center;
   height: 30px;
-  margin-top:20px;
+  margin-top:0px;
 }
 
 header nav[aria-expanded="true"] .nav-sections {
@@ -351,7 +355,6 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    flex-direction: row;
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
