@@ -91,6 +91,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 /* add and decorate the top bar */
 async function decorateTopbar(block, cfg) {
   // fetch topbar content
+  consol.log('in topbar decorator');
   const topbarPath = cfg.topbar || '/topbar';
   const resp = await fetch(`${topbarPath}.plain.html`);
   if (resp.ok) {
@@ -106,6 +107,7 @@ export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.textContent = '';
   await decorateTopbar(block, cfg);
+
   // fetch nav content
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
