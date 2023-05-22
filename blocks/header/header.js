@@ -168,5 +168,20 @@ export default async function decorate(block) {
     const navA = nav.children[1];
     navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
     block.append(nav);
+
+    // tools
+ const toolContainer = nav.querySelector('.nav-tools');
+ toolContainer.innerHTML = '';
+
+ toolContainer.append(document.createRange().createContextualFragment(
+   '<p class="button-container"><button class="button primary">Get Started</button></p>',
+ ));
+
+ /*toolContainer.append(document.createRange().createContextualFragment(
+   `<div class="minicart-wrapper">
+     <button class="minicart" aria-label="Open Cart"></button>
+     <div></div>
+   </div>`,
+ ));*/
   }
 }
