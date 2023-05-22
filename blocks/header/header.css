@@ -6,7 +6,7 @@ header .nav-wrapper {
   position: fixed;
 }
 
-header .topbar{
+header .topbar {
   position: relative;
   z-index: 2;
   margin: 0;
@@ -22,10 +22,34 @@ header .topbar{
   background-position: 0 0;
   border-top:2px solid grey;
   border-bottom:2px solid grey;
+
+  background: #444444;
+  color: #fff;
+  margin-top:20px;
+
+  }
+  header .topbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: unset;
+    width: unset;
+    font-size: 14px;
+    list-style: none;
+    padding-left: 0;
+}
+header .topbar li {
+  margin: 0;
+  font-size: 12px;
+  margin-left:20px;
+  margin-left:20px;
+  list-style: none;
+  padding-left: 0;
+}
+=======
   background: #f2ecff;
   color: #3f006d;
   margin-top:20px;
-
   }
 
 header .topbar img{
@@ -33,6 +57,11 @@ header .topbar img{
   width: 24px;
   height: 19px;
 
+}
+header .topbar a:any-link {
+
+  color:#fff;
+    text-decoration: none;
 }
 
 header nav {
@@ -199,7 +228,7 @@ header nav .nav-brand img {
 header nav .nav-sections {
   width: 1075px;
   margin: auto;
-  display: none;
+  display: flex;
   font-size: 15px;
   font-weight: 400;
   justify-content: space-between;
@@ -288,7 +317,7 @@ header nav .nav-sections ul > li > ul > li {
     white-space: nowrap;
   }
 
-
+/* double not sure what this is for, maybe delete*/
   header nav .nav-sections {
     display: unset;
 }
