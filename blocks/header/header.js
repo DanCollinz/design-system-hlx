@@ -87,12 +87,23 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
   }
 }
 
-
+async function decorateTopbar(block, cfg) {
+  // fetch topbar content
+  const topbarPath = cfg.topbar || '/topbar';
+  const resp = await fetch(`${topbarPath}.plain.html`);
+  if (resp.ok) {
+    const html = await resp.text();
+    const mainDiv = document.createElement('div');
+    mainDiv.setAttribute('class', 'topbar');
+    mainDiv.innerHTML = html;
+    block.prepend(mainDiv);
+  }
+}
 
 export default async function decorate(block) {
   const cfg = readBlockConfig(block);
   block.textContent = '';
-  //await decorateTopbar(block, cfg);
+  await decorateTopbar(block, cfg);
   // fetch nav content
   const navPath = cfg.nav || '/nav';
   const resp = await fetch(`${navPath}.plain.html`);
