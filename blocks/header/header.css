@@ -203,11 +203,12 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
-  background: url(    display: block;
+  background: url('url("/icons/takeda_logo.png") no-repeat' );
   height: 100%;
   width: 105px;
   padding-top: 15px;
   padding-bottom: 15px;
+  width:250px;
 ) no-repeat;
 
 }
@@ -216,15 +217,15 @@ header nav .nav-brand img {
   display: block;
   height: 100%;
   width: 105px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+
 }
 
 /* sections */
 header nav .nav-sections {
+  grid-area:sections;
   width: 1075px;
   margin: auto;
-  display: unset;
+  display: none;
   font-size: 15px;
   font-weight: 400;
   justify-content: space-between;
@@ -235,8 +236,7 @@ header nav .nav-sections {
 
 header nav[aria-expanded="true"] .nav-sections {
   display: block;
-  visibility: visible;
-  align-self: start;
+  align-self: flex-start;
 }
 
 header nav .nav-sections ul  {
@@ -315,7 +315,8 @@ header nav .nav-sections ul > li > ul > li {
 
 
   header nav[aria-expanded="true"] .nav-sections {
-    align-self: unset;
+    align-self: flex-start;
+    display: block;
   }
 
   header nav .nav-sections .nav-drop {
@@ -394,4 +395,17 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+  display:none;
 }
+header nav[aria-expanded='true'] .nav-tools {
+    display: block;
+    align-self: flex-start;
+}
+
+@media (min-width: 900px) {
+  header nav .nav-tools {
+    grid-area: hamburger;
+    display: block;
+    border:4px dotted orange
+
+  }
