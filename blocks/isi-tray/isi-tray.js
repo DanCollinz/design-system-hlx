@@ -18,7 +18,7 @@ export default async function decorateISITray(block) {
     }
     //update to add icon to change icon as well
   }
-  
+
     const isiTray = document.querySelector(".isi-tray-wrapper");
     document.querySelector(".isi-tray").setAttribute('aria-expanded', false);
     isiTray.firstElementChild.firstElementChild.className = 'isi-header';
@@ -29,6 +29,6 @@ export default async function decorateISITray(block) {
     document.querySelector(".isi-header").innerHTML = isiWrapperHeaderContent;
     document.querySelector(".isi-header").nextElementSibling.className = 'isi-body-content';
     document.querySelector(".cmp-isi-expand").onclick = toggleIsiTray;
-  
+
 
 }
