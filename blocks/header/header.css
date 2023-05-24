@@ -323,6 +323,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
+    z-index: 4;
   }
 
   header nav .nav-sections .nav-drop::after {
@@ -396,16 +397,20 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
   display:none;
+
 }
 header nav[aria-expanded='true'] .nav-tools {
-    display: block;
-    align-self: flex-start;
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  top: 450px;
+  left: 40px;
+
 }
 
 @media (min-width: 900px) {
   header nav .nav-tools {
     grid-area: hamburger;
     display: block;
-    border:4px dotted orange
 
   }

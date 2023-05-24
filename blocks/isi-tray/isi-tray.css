@@ -11,7 +11,7 @@
     z-index: 5;
     left: 50%;
     background: #fff;
-   
+
 }
 .isi-tray[aria-expanded=true]{
     height: 100%;
@@ -21,7 +21,7 @@
     min-height: 100%;
 }
 .isi-tray .isi-header {
-background-color: #3f006d;
+background-color: #000000;
 color: #fff;
 padding: 0.45vw;
 width: 100%;
@@ -30,7 +30,7 @@ font-weight: bold;
 }
  @media screen and (min-width: 960px) and (max-width: 9999px){
     .isi-tray .isi-header .isi-header-wrapper{
-        display: flex;
+    display: flex;
     padding: 0 50px;
     max-width: 1290px;
     flex-wrap: wrap;
@@ -48,7 +48,7 @@ font-weight: bold;
     font-size: 20px;
     }
     .isi-body-content {
-        margin: auto;
+    margin: auto;
     padding-left: 50px;
     padding-right: 50px;
     max-width: 1290px;
@@ -61,7 +61,7 @@ font-weight: bold;
         line-height: 30px;
     }
     .isi-body-content p {
-        color: #3f006d;
+    color: #151515;
     font-size: 20px;
     line-height: 30px;
     font-family: Overpass,sans-serif;
