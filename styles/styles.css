@@ -78,6 +78,7 @@ h4, h5, h6 {
   line-height: 1.25;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top:0;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
@@ -154,6 +155,7 @@ a.button:any-link, button {
   border-radius: 30px;
 }
 
+
 button:disabled, button:disabled:hover {
   background-color: var(--overlay-background-color);
   cursor: unset;
@@ -222,13 +224,12 @@ main .section  .hero{
 }
 
 main .section {
-  padding: 64px 16px;
-  padding: 48px 32px;
+  padding: 40px 32px;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 30px 20px;
   }
 }
 

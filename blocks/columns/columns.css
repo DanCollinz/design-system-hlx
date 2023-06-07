@@ -55,6 +55,17 @@
 
 .columns > div > .columns-img-col {
   order: 0;
+  border-right: 3px solid #ee1100;
+  padding: 0 30px 0 0;
+
+}
+.columns > div > .columns-img-col .copy-right{
+border-right: 3px solid #ee1100;
+
+}
+.columns > div > .columns-img-col .copy-left{
+border--right: 3px solid #ee1100;
+
 }
 
 .columns > div > .columns-img-col img {
