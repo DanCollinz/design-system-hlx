@@ -13,7 +13,7 @@ header .topbar {
   z-index: 2;
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: inherit;
   border: 0;
   border-radius: 0;
@@ -27,6 +27,7 @@ header .topbar {
   background: #444444;
   color: #fff;
   margin-top:20px;
+  height:60px;
 
   }
   header .topbar ul {
@@ -35,17 +36,30 @@ header .topbar {
     justify-content: flex-start;
     background-color: unset;
     width: unset;
-    font-size: 14px;
+    font-size: 16px;
     list-style: none;
     padding-left: 0;
 }
 header .topbar li {
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
   margin-left:20px;
   margin-left:20px;
   list-style: none;
   padding-left: 0;
+  position: relative;
+  display: block;
+ float: left;
+ text-decoration: none;
+ transition-duration: 0.5s;
+}
+
+header .topbar ul li:hover > ul,
+header .topbar  ul li:focus-within > ul,
+header .topbar  ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
 }
 
 header .topbar img{
@@ -54,10 +68,43 @@ header .topbar img{
   height: 19px;
 
 }
-header .topbar a:any-link {
 
-  color:#fff;
-    text-decoration: none;
+header .topbar  li {
+ display: block;
+ transition-duration: 0.5s;
+
+}
+
+header .topbar  li:hover {
+  cursor: pointer;
+}
+
+header .topbar  ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+header .topbarul li:hover > ul,
+header .topbar ul li:focus-within > ul,
+header .topbar ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  background-color: #fff;
+  color:#4f535f;
+
+}
+
+header .topbar ul li ul li {
+  clear: both;
+  width: 100%;
+  background-color: #fff;
+
 }
 
 header nav {
@@ -73,6 +120,7 @@ header nav {
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
+  font-size: 16px;
   margin-top:20px;
   margin-bottom:15px;
 }
@@ -203,20 +251,19 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
-  background: url('url("/icons/takeda_logo.png") no-repeat' );
+  background: no-repeat 200px 200px  url('../../icons/takeda_logo.png');
   height: 100%;
   width: 105px;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   width:250px;
-) no-repeat;
 
 }
 
 header nav .nav-brand img {
   display: block;
-  height: 100%;
-  width: 105px;
+  height: 60px;
+  width: 200px;
 
 }
 
@@ -226,7 +273,7 @@ header nav .nav-sections {
   width: 1075px;
   margin: auto;
   display: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   justify-content: space-between;
   align-items: center;
@@ -256,7 +303,7 @@ header nav .nav-sections ul > li > ul {
 
 header nav .nav-sections ul:nth-child(1){
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 16px;
 }
 /*next two blocks are to find forth and fifth lis and make them buttons*/
 header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
@@ -267,7 +314,7 @@ header nav .nav-sections :nth-child(1) :nth-child(4)  a:last-of-type {
   padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   color: var(--background-color);
@@ -403,7 +450,7 @@ header nav[aria-expanded='true'] .nav-tools {
   display: flex;
   align-self: flex-start;
   position: absolute;
-  top: 450px;
+  top: 550px;
   left: 40px;
 
 }

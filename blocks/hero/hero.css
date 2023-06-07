@@ -2,6 +2,7 @@
 
 main .hero-container > div {
   max-width: unset;
+  margin-bottom:45px;
 }
 
 main .hero-container {

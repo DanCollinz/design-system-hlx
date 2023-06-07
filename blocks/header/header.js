@@ -94,11 +94,14 @@ async function decorateTopbar(block, cfg) {
   // fetch topbar content
   const topbarPath = cfg.topbar || '/topbar';
   const resp = await fetch(`${topbarPath}.plain.html`);
+
   if (resp.ok) {
     const html = await resp.text();
     const mainDiv = document.createElement('div');
     mainDiv.setAttribute('class', 'topbar');
     mainDiv.innerHTML = html;
+    //const expanded = navSection.getAttribute('aria-expanded') === 'true';
+    //console.log(expanded);
     block.prepend(mainDiv);
   }
 }
@@ -138,6 +141,7 @@ export default async function decorate(block) {
           console.log('navdrop class');
           navSection.addEventListener('click', () => {
           const expanded = navSection.getAttribute('aria-expanded') === 'true';
+
           //collapseAllNavSections(navSections);
           navSection.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         });
@@ -166,7 +170,7 @@ export default async function decorate(block) {
     // decorateIcons(nav);
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
-    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="https://ihsvirtualexperience.com/wp-content/themes/virtual-booth/images/Takeda_Logo.png" alt="Livtencity"></a>';
+    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="../images/Logo.png" alt="Livtencity"></a>';
     block.append(nav);
 
     // tools

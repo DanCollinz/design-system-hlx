@@ -1,5 +1,5 @@
 .isi-tray {
-    max-height: 40vh;
+    max-height: 25vh;
     min-height: 0;
     transition: all 300ms ease-in-out,bottom 600ms ease-in-out;
     position: fixed;
@@ -21,11 +21,11 @@
     min-height: 100%;
 }
 .isi-tray .isi-header {
-background-color: #000000;
-color: #fff;
-padding: 0.45vw;
-width: 100%;
-font-weight: bold;
+  background-color: #000000;
+  color: #fff;
+  padding: 0.45vw;
+  width: 100%;
+  font-weight: bold;
 
 }
  @media screen and (min-width: 960px) and (max-width: 9999px){
@@ -54,11 +54,11 @@ font-weight: bold;
     max-width: 1290px;
     }
     #indication {
-        color: #ff255b;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-size: 24px;
-        line-height: 30px;
+      color: #ff255b;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 30px;
     }
     .isi-body-content p {
     color: #151515;
@@ -71,7 +71,6 @@ font-weight: bold;
     .isi-body-content strong {
         font-weight: 600;
     }
-.cmp-isi-fixed-header-wrapper {
-
+    .cmp-isi-fixed-header-wrapper {
 
 }
