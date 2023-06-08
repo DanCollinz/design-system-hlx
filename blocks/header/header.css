@@ -251,7 +251,7 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
-  background: no-repeat 200px 200px  url('../../icons/takeda_logo.png');
+  background: no-repeat 200px 200px  url('../images/logo.png');
   height: 100%;
   width: 105px;
   padding-top: 30px;
