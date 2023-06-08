@@ -23,19 +23,21 @@
 .item-title {
     cursor: pointer;
     padding: 12px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #1b1b1b;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #dedede;
+    background: #fff;
     color:#000;
+    padding: 24px 32px 24px 32px;
+
 }
 
 .item-title::after {
     width: 10px;
     height: 10px;
-    border-bottom: 2px solid #a7a7a7;
-    border-right: 2px solid #a7a7a7;
+    border-bottom: 2px solid #1b1b1b;
+    border-right: 2px solid #1b1b1b;
     transform-origin: 75% 75%;
     transform: rotate(-45deg) translateY(-50%);
     transition: transform .1s ease;
@@ -43,7 +45,7 @@
 }
 
 .item-title.open {
-    background: #dedede;
+    background: #f6f6f6;
     color:#151515
 
 }
@@ -57,8 +59,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 12px;
     padding: 12px;
-    border-bottom: 1px solid #ddd;
-    background-color: #fff;
+    border-bottom: 1px solid ##757575;
+    background-color: #f6f6f6;
+    padding:32px 80px 26px 32px;
+}
+.item-title div {
+    width:100%;
 }
 
 .item-title.open + .item-content {
