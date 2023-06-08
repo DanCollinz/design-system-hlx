@@ -170,7 +170,7 @@ export default async function decorate(block) {
     // decorateIcons(nav);
     const navBox = document.getElementsByClassName('nav-brand');
     const navA = nav.children[1];
-    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="../images/Logo.png" alt="Design System"></a>';
+    navA.innerHTML ='<a href="/" aria-disabled="false" target="_self"><img src="../images/logo.png" alt="Design System Proto"></a>';
     block.append(nav);
 
     // tools
