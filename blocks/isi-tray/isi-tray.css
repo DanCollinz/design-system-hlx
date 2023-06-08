@@ -1,5 +1,5 @@
 .isi-tray {
-    max-height: 25vh;
+    max-height: 14vh;
     min-height: 0;
     transition: all 300ms ease-in-out,bottom 600ms ease-in-out;
     position: fixed;

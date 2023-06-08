@@ -78,7 +78,8 @@ h4, h5, h6 {
   line-height: 1.25;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top:0;
+  margin-top:60px;
+  margin-bottom: 30px;
   scroll-margin: calc(var(--nav-height) + 1em);
 }
 
@@ -224,12 +225,12 @@ main .section  .hero{
 }
 
 main .section {
-  padding: 40px 32px;
+  padding: 60px 0 60px 0;
 }
 
 @media (min-width: 600px) {
   main .section {
-    padding: 30px 20px;
+    padding: 60px 30px;
   }
 }
 

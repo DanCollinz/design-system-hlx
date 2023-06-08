@@ -30,11 +30,11 @@
 }
 .table table thead th{
 
-  background-color: #c9c9c9;
+  background-color: #E6E6E6;
   color:#1b1b1b;
 }
 .table table thead tr {
-  border-top: 2px solid;
+  border-bottom: 1px solid;
   background-color:  #a1a4ac;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .table table th, .table table td {
-  padding:  15px;
+  padding:  20px;
   text-align: left;
 }
 
