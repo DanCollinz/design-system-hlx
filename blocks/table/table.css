@@ -28,19 +28,26 @@
     font-size: var(--body-font-size-m);
   }
 }
+.table table thead tr {
+
+  background-color: #E6E6E6;
+  color:#1b1b1b;
+  border:none;
+}
 .table table thead th{
 
   background-color: #E6E6E6;
   color:#1b1b1b;
+  border:none;
 }
 .table table thead tr {
   border-bottom: 1px solid;
-  background-color:  #a1a4ac;
+  background-color:  #E6E6E6;
 }
 
 .table table tbody tr:nth-child(even)
 {
-  font-weight: 700;
+
   background-color: #F6F6F6;
   border:1px solid #dedede;
 }
