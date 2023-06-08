@@ -5,6 +5,11 @@ Your project's description...
 - Preview:https://main--takeda-hlx--dancollinz.hlx.page/
 - Live: https://main--takeda-hlx--dancollinz.hlx.live/
 
+##Design System
+
+https://main--design-system-hlx--dancollinz.hlx.page/
+https://main--design-system-hlx--dancollinz.hlx.live/
+
 ## Installation
 
 ```sh
