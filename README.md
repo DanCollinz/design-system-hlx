@@ -7,8 +7,8 @@ Your project's description...
 
 ##Design System
 
-https://main--design-system-hlx--dancollinz.hlx.page/
-https://main--design-system-hlx--dancollinz.hlx.live/
+- Preview:https://main--design-system-hlx--dancollinz.hlx.page/
+- Live:https://main--design-system-hlx--dancollinz.hlx.live/
 
 ## Installation
 
