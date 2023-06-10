@@ -12,7 +12,7 @@
 }
 
 .cards > ul > li {
-  background-color: #EDF2F4;
+  background-color: #F6F6F6;
   border-radius: 8px;
   -webkit-box-shadow: 0 4px 1pc 0 hsla(0,0%,47%,.16);
   box-shadow: 0 4px 1pc 0 hsla(0,0%,47%,.16);
@@ -43,7 +43,7 @@ margin:0;
 }
 
 .cards > ul > li img {
-  width: 30%;
+  width: 25%;
   height: auto;
   display: inline-block;
 }
