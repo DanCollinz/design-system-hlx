@@ -102,7 +102,7 @@ async function decorateTopbar(block, cfg) {
     mainDiv.innerHTML = html;
     //const expanded = navSection.getAttribute('aria-expanded') === 'true';
     //console.log(expanded);
-    block.prepend(mainDiv);
+    block.append(mainDiv);
   }
 }
 

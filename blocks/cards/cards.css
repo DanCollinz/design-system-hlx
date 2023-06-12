@@ -23,6 +23,14 @@
 .cards .cards-card-body {
   margin: 16px 0 0 0;
 }
+.cards .cards-card-body .card-calendar span{
+  margin-left: 10px;
+
+}
+.cards .cards-card-body .card-calendar SVG{
+  height:15px;
+  width:15px;
+}
 
 .cards .cards-card-image {
   line-height: 0;
@@ -43,7 +51,7 @@ margin:0;
 }
 
 .cards > ul > li img {
-  width: 25%;
+  width: 100%;
   height: auto;
   display: inline-block;
 }
