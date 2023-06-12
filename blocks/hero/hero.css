@@ -29,7 +29,7 @@ main .hero .topbar p{
 }
 
 main .hero {
-  height:350px;
+  height:450px;
 
 }
 
@@ -47,10 +47,11 @@ main .hero h2 {
   margin-right: auto;
   color: white;
   font-size: 24px;
+  padding-top:30px;
 
 }
 main .hero.design-demo .button {
-  font-family: var(--body-font-family);
+font-family: var(--body-font-family);
 display: inline-block;
 box-sizing: border-box;
 text-decoration: none;
@@ -60,20 +61,21 @@ text-align: center;
 font-style: normal;
 font-weight: 600;
 cursor: pointer;
-color: var(--background-color);
-background-color: var(--link-color);
+color: #fff;
+background-color: #bd120a;
 margin: 16px 0;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
-border-radius: 30px;
+border-bottom-left-radius: 20px;
+
 }
 main .hero.design-demo h1 {
 color:black;
 
 }
 main .hero.design-demo h2 {
-color:black;
+color:#FFF;
 
 }
 
