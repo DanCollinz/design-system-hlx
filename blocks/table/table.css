@@ -1,13 +1,13 @@
 .table {
   width: 100%;
   overflow-x: auto;
-  border-radius: 0px;
-  overflow: hidden;
-  box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+-moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+-webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+-o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+-ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
 }
 
 .table table {
@@ -28,32 +28,24 @@
     font-size: var(--body-font-size-m);
   }
 }
-.table table thead tr {
+.table table thead th {
 
-  background-color: #E6E6E6;
-  color:#1b1b1b;
-  border:none;
+  background-color: #7c45ff;
+  color:#ffffff;
 }
-.table table thead th{
-
-  background-color: #E6E6E6;
-  color:#1b1b1b;
-  border:none;
-}
-.table table thead tr {
-  border-bottom: 1px solid;
-  background-color:  #E6E6E6;
+.table thead tr {
+  border-top: 2px solid;
+background-color: #dedede;
 }
 
 .table table tbody tr:nth-child(even)
 {
-
-  background-color: #F6F6F6;
-  border:1px solid #dedede;
+  font-weight: 700;
+  background-color: #f8f6ff;
 }
 
-.table table th, .table table td {
-  padding:  20px;
+.table th, .table td {
+  padding: 8px 16px;
   text-align: left;
 }
 
